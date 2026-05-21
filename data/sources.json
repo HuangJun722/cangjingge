@@ -1,0 +1,35 @@
+[
+  {
+    "name": "知乎副业搜索",
+    "type": "search",
+    "platform": "知乎/搜索",
+    "url": "https://www.baidu.com/s?wd=site%3Azhihu.com%20副业%20AI%20怎么做",
+    "track": "AI 工具/服务",
+    "enabled": false,
+    "note": "V1 先保留配置，后续用浏览器辅助或搜索 API 接入"
+  },
+  {
+    "name": "少数派",
+    "type": "rss",
+    "platform": "少数派",
+    "url": "https://sspai.com/feed",
+    "track": "AI 工具/效率",
+    "enabled": true
+  },
+  {
+    "name": "人人都是产品经理",
+    "type": "rss",
+    "platform": "人人都是产品经理",
+    "url": "https://www.woshipm.com/feed",
+    "track": "内容/IP/产品服务",
+    "enabled": true
+  },
+  {
+    "name": "电商报",
+    "type": "rss",
+    "platform": "电商报",
+    "url": "https://www.dsb.cn/feed",
+    "track": "电商/平台",
+    "enabled": true
+  }
+]

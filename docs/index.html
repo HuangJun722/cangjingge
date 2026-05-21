@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>藏经阁｜副业机会观测与试验看板</title>
+  <style>
+    :root {
+      --paper: #f4efe3;
+      --paper-deep: #e7dcc8;
+      --ink: #1f2a27;
+      --muted: #68716b;
+      --line: rgba(42, 52, 46, 0.18);
+      --seal: #9d2f2f;
+      --jade: #1f6b5b;
+      --gold: #a8762a;
+      --blue: #355c7d;
+      --shadow: 0 24px 70px rgba(37, 30, 18, 0.12);
+      --radius: 8px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Songti SC", "Noto Serif CJK SC", Georgia, serif;
+      background:
+        linear-gradient(90deg, rgba(31, 107, 91, 0.05) 1px, transparent 1px) 0 0 / 34px 34px,
+        linear-gradient(rgba(31, 107, 91, 0.04) 1px, transparent 1px) 0 0 / 34px 34px,
+        radial-gradient(circle at 20% 10%, rgba(157, 47, 47, 0.08), transparent 30%),
+        var(--paper);
+    }
+    a { color: inherit; }
+    .shell { max-width: 1280px; margin: 0 auto; padding: 28px 22px 52px; }
+    .topbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 20px;
+      align-items: start;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 24px;
+    }
+    .brand { display: flex; gap: 18px; align-items: center; }
+    .seal {
+      width: 72px; height: 72px; display: grid; place-items: center;
+      border: 2px solid var(--seal); color: var(--seal);
+      border-radius: 50%; font-size: 28px; font-weight: 800;
+      background: rgba(255,255,255,0.28);
+    }
+    h1 { margin: 0; font-size: 46px; line-height: 1; letter-spacing: 0; }
+    .subtitle { margin: 10px 0 0; color: var(--muted); font-size: 15px; line-height: 1.7; }
+    .status { text-align: right; color: var(--muted); font-size: 13px; line-height: 1.8; }
+    .quote { margin-top: 24px; font-size: 24px; line-height: 1.45; max-width: 820px; }
+    .nav { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 24px; }
+    .nav button, .tool button {
+      border: 1px solid var(--line); background: rgba(255,255,255,0.42);
+      color: var(--ink); padding: 9px 13px; border-radius: 999px; cursor: pointer;
+      font: inherit; font-size: 13px;
+    }
+    .nav button.active { background: var(--ink); color: var(--paper); }
+    .grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 18px; margin-top: 26px; }
+    .panel {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.48);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .panel h2 { margin: 0 0 12px; font-size: 20px; }
+    .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 18px; }
+    .stat { border-top: 2px solid var(--ink); padding-top: 10px; }
+    .stat strong { display: block; font-size: 28px; line-height: 1; }
+    .stat span { color: var(--muted); font-size: 12px; }
+    .cards { display: grid; gap: 12px; }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(250,248,241,0.82);
+      padding: 16px;
+    }
+    .card-head { display: flex; justify-content: space-between; gap: 14px; align-items: start; }
+    .card h3 { margin: 0; font-size: 18px; line-height: 1.35; }
+    .score {
+      min-width: 54px; height: 54px; border-radius: 50%;
+      display: grid; place-items: center; background: var(--jade); color: #fff;
+      font-size: 20px; font-weight: 800;
+    }
+    .meta { display: flex; gap: 6px; flex-wrap: wrap; margin: 11px 0; }
+    .tag { border: 1px solid var(--line); border-radius: 999px; padding: 4px 8px; font-size: 12px; color: var(--muted); background: rgba(255,255,255,0.38); }
+    .tag.red { color: var(--seal); border-color: rgba(157,47,47,0.32); }
+    .tag.green { color: var(--jade); border-color: rgba(31,107,91,0.32); }
+    .tag.gold { color: var(--gold); border-color: rgba(168,118,42,0.36); }
+    .card p { margin: 8px 0 0; line-height: 1.65; color: var(--muted); font-size: 14px; }
+    .card dl { display: grid; grid-template-columns: 88px minmax(0,1fr); gap: 8px 12px; margin: 14px 0 0; font-size: 13px; }
+    .card dt { color: var(--gold); }
+    .card dd { margin: 0; line-height: 1.55; }
+    .matrix { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .track { border-left: 3px solid var(--jade); padding: 10px 12px; background: rgba(255,255,255,0.35); }
+    .track strong { display: block; font-size: 15px; }
+    .track span { color: var(--muted); font-size: 12px; }
+    .toolbar { display: flex; justify-content: space-between; gap: 14px; align-items: center; margin: 26px 0 14px; }
+    .search { width: min(420px, 100%); border: 1px solid var(--line); border-radius: 999px; padding: 10px 14px; background: rgba(255,255,255,0.55); font: inherit; }
+    .tab { display: none; }
+    .tab.active { display: block; }
+    .empty { color: var(--muted); padding: 18px; border: 1px dashed var(--line); border-radius: var(--radius); }
+    @media (max-width: 860px) {
+      .topbar, .grid { grid-template-columns: 1fr; }
+      .status { text-align: left; }
+      .stats, .matrix { grid-template-columns: repeat(2, 1fr); }
+      h1 { font-size: 36px; }
+    }
+    @media (max-width: 560px) {
+      .brand { align-items: flex-start; }
+      .seal { width: 56px; height: 56px; font-size: 22px; }
+      .stats, .matrix { grid-template-columns: 1fr; }
+      .card-head { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="brand">
+          <div class="seal">藏</div>
+          <div>
+            <h1>藏经阁</h1>
+            <p class="subtitle">副业机会观测与试验看板 · 私人版</p>
+          </div>
+        </div>
+        <div class="quote">收录可试之机，也封存不可碰之坑。只看那些值得用三到七天亲自验证的小机会。</div>
+        <nav class="nav" aria-label="看板切换">
+          <button class="active" data-tab="top">可试机会</button>
+          <button data-tab="watch">观察池</button>
+          <button data-tab="risk">避坑册</button>
+          <button data-tab="all">全阁索引</button>
+        </nav>
+      </div>
+      <div class="status">
+        <div>最近生成：2026年05月21日 22:39</div>
+        <div>总收录：16 条</div>
+        <div>中文副业机会私人看板，优先寻找 3-7 天可低成本验证的小机会。</div>
+      </div>
+    </header>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>今日判断</h2>
+
+        <div class="cards">
+
+          <article class="card" data-text="闲鱼技能服务：AI 简历优化与求职材料改写 平台轻服务 人工观察 可试">
+    <div class="card-head">
+      <div>
+        <h3>闲鱼技能服务：AI 简历优化与求职材料改写</h3>
+        <div class="meta">
+          <span class="tag green">可试</span>
+          <span class="tag">平台轻服务</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 10/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">6.18</div>
+    </div>
+    <p>求职季长期存在简历改写、岗位匹配、面试话术需求 / 供给可以从单个服务帖和标准化交付模板开始</p>
+    <dl>
+      <dt>需求证据</dt><dd>求职季长期存在简历改写、岗位匹配、面试话术需求；供给可以从单个服务帖和标准化交付模板开始；不需要囤货，不需要复杂开发，3 天可上架验证</dd>
+      <dt>付费证据</dt><dd>可按单收取简历诊断、改写、岗位匹配包费用</dd>
+      <dt>三天试法</dt><dd>准备 3 个样例前后对比，发布 1 个闲鱼服务帖和 1 篇小红书引流笔记，观察咨询率</dd>
+      <dt>放弃信号</dt><dd>容易陷入低价代写，需要强调诊断和修改建议，避免承诺包过</dd>
+      <dt>可沉淀</dt><dd>简历诊断清单、岗位匹配 prompt、服务话术模板</dd>
+    </dl>
+
+  </article>
+
+          <article class="card" data-text="本地商家轻服务：团购页文案和门店图文改造 本地生活 人工观察 可试">
+    <div class="card-head">
+      <div>
+        <h3>本地商家轻服务：团购页文案和门店图文改造</h3>
+        <div class="meta">
+          <span class="tag green">可试</span>
+          <span class="tag">本地生活</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 8/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">5.74</div>
+    </div>
+    <p>大量小店不会写团购标题、卖点和点评回复 / AI 可把交付压缩为诊断表、标题包和图片文案包</p>
+    <dl>
+      <dt>需求证据</dt><dd>大量小店不会写团购标题、卖点和点评回复；AI 可把交付压缩为诊断表、标题包和图片文案包；可以从身边商家或公开门店页做样例</dd>
+      <dt>付费证据</dt><dd>按店铺诊断、套餐文案、点评回复模板收费</dd>
+      <dt>三天试法</dt><dd>选 3 家公开门店做免费诊断样例，发布前后对比图文，观察本地商家咨询</dd>
+      <dt>放弃信号</dt><dd>线下获客耗时，第一阶段只验证线上样例是否有人咨询</dd>
+      <dt>可沉淀</dt><dd>门店诊断表、团购标题库、点评回复模板</dd>
+    </dl>
+
+  </article>
+
+          <article class="card" data-text="小红书资料包：AI 工具学习路线与行业模板包 资料包/知识产品 人工观察 观察">
+    <div class="card-head">
+      <div>
+        <h3>小红书资料包：AI 工具学习路线与行业模板包</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">资料包/知识产品</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 7/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.95</div>
+    </div>
+    <p>新工具更新频繁，普通人缺少筛选和上手路径 / 资料包可以先从 Notion/飞书文档做最小交付</p>
+    <dl>
+      <dt>需求证据</dt><dd>新工具更新频繁，普通人缺少筛选和上手路径；资料包可以先从 Notion/飞书文档做最小交付；内容可同时反哺账号选题</dd>
+      <dt>付费证据</dt><dd>低客单资料包、社群门票、模板升级包</dd>
+      <dt>三天试法</dt><dd>整理一个 20 个工具以内的 AI 副业入门路径，发布目录截图测试收藏和私信</dd>
+      <dt>放弃信号</dt><dd>资料包赛道拥挤，必须有真实筛选和可执行样例，不能只堆链接</dd>
+      <dt>可沉淀</dt><dd>工具库、模板包、选题库</dd>
+    </dl>
+
+  </article>
+
+        </div>
+
+      </div>
+      <aside class="panel">
+        <h2>阁中分布</h2>
+        <div class="stats">
+          <div class="stat"><strong>2</strong><span>可试</span></div>
+          <div class="stat"><strong>6</strong><span>观察</span></div>
+          <div class="stat"><strong>0</strong><span>高风险</span></div>
+          <div class="stat"><strong>6</strong><span>赛道</span></div>
+        </div>
+        <div class="matrix" style="margin-top:18px">
+
+          <div class="track"><strong>AI 工具/服务</strong><span>9 条线索</span></div>
+
+          <div class="track"><strong>内容/IP/知识产品</strong><span>3 条线索</span></div>
+
+          <div class="track"><strong>平台轻服务</strong><span>1 条线索</span></div>
+
+          <div class="track"><strong>本地生活</strong><span>1 条线索</span></div>
+
+          <div class="track"><strong>资料包/知识产品</strong><span>1 条线索</span></div>
+
+          <div class="track"><strong>电商/平台</strong><span>1 条线索</span></div>
+
+        </div>
+      </aside>
+    </section>
+
+    <section id="tab-top" class="tab active">
+      <div class="toolbar"><h2>可试机会 TOP 5</h2><input class="search" data-search placeholder="搜机会、平台或赛道"></div>
+      <div class="cards" data-list>
+
+        <article class="card" data-text="闲鱼技能服务：AI 简历优化与求职材料改写 平台轻服务 人工观察 可试">
+    <div class="card-head">
+      <div>
+        <h3>闲鱼技能服务：AI 简历优化与求职材料改写</h3>
+        <div class="meta">
+          <span class="tag green">可试</span>
+          <span class="tag">平台轻服务</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 10/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">6.18</div>
+    </div>
+    <p>求职季长期存在简历改写、岗位匹配、面试话术需求 / 供给可以从单个服务帖和标准化交付模板开始</p>
+    <dl>
+      <dt>需求证据</dt><dd>求职季长期存在简历改写、岗位匹配、面试话术需求；供给可以从单个服务帖和标准化交付模板开始；不需要囤货，不需要复杂开发，3 天可上架验证</dd>
+      <dt>付费证据</dt><dd>可按单收取简历诊断、改写、岗位匹配包费用</dd>
+      <dt>三天试法</dt><dd>准备 3 个样例前后对比，发布 1 个闲鱼服务帖和 1 篇小红书引流笔记，观察咨询率</dd>
+      <dt>放弃信号</dt><dd>容易陷入低价代写，需要强调诊断和修改建议，避免承诺包过</dd>
+      <dt>可沉淀</dt><dd>简历诊断清单、岗位匹配 prompt、服务话术模板</dd>
+    </dl>
+
+  </article>
+
+        <article class="card" data-text="本地商家轻服务：团购页文案和门店图文改造 本地生活 人工观察 可试">
+    <div class="card-head">
+      <div>
+        <h3>本地商家轻服务：团购页文案和门店图文改造</h3>
+        <div class="meta">
+          <span class="tag green">可试</span>
+          <span class="tag">本地生活</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 8/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">5.74</div>
+    </div>
+    <p>大量小店不会写团购标题、卖点和点评回复 / AI 可把交付压缩为诊断表、标题包和图片文案包</p>
+    <dl>
+      <dt>需求证据</dt><dd>大量小店不会写团购标题、卖点和点评回复；AI 可把交付压缩为诊断表、标题包和图片文案包；可以从身边商家或公开门店页做样例</dd>
+      <dt>付费证据</dt><dd>按店铺诊断、套餐文案、点评回复模板收费</dd>
+      <dt>三天试法</dt><dd>选 3 家公开门店做免费诊断样例，发布前后对比图文，观察本地商家咨询</dd>
+      <dt>放弃信号</dt><dd>线下获客耗时，第一阶段只验证线上样例是否有人咨询</dd>
+      <dt>可沉淀</dt><dd>门店诊断表、团购标题库、点评回复模板</dd>
+    </dl>
+
+  </article>
+
+        <article class="card" data-text="小红书资料包：AI 工具学习路线与行业模板包 资料包/知识产品 人工观察 观察">
+    <div class="card-head">
+      <div>
+        <h3>小红书资料包：AI 工具学习路线与行业模板包</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">资料包/知识产品</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 7/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.95</div>
+    </div>
+    <p>新工具更新频繁，普通人缺少筛选和上手路径 / 资料包可以先从 Notion/飞书文档做最小交付</p>
+    <dl>
+      <dt>需求证据</dt><dd>新工具更新频繁，普通人缺少筛选和上手路径；资料包可以先从 Notion/飞书文档做最小交付；内容可同时反哺账号选题</dd>
+      <dt>付费证据</dt><dd>低客单资料包、社群门票、模板升级包</dd>
+      <dt>三天试法</dt><dd>整理一个 20 个工具以内的 AI 副业入门路径，发布目录截图测试收藏和私信</dd>
+      <dt>放弃信号</dt><dd>资料包赛道拥挤，必须有真实筛选和可执行样例，不能只堆链接</dd>
+      <dt>可沉淀</dt><dd>工具库、模板包、选题库</dd>
+    </dl>
+
+  </article>
+
+        <article class="card" data-text="当泡沫散尽，B端AI公司里值钱的只剩这一种人 AI 工具/服务 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>当泡沫散尽，B端AI公司里值钱的只剩这一种人</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.73</div>
+    </div>
+    <p>AI时代，真正不会被淘汰的不是“会用AI的人”，而是那些懂业务、懂技术、懂产品、懂客户、还能把问题落到结果的人。 最近我越来越确信这件事，尤其在B端AI行业，这个判断会变得越来越明显。 很多人以为B端AI的竞争是模型能力的竞争，看谁用了更强的大模型，谁有更漂亮的Agent概念，谁能把PPT讲得更像未来。 但真正进到客户现场以后，你会发现，事情根本不是这样。 客户不会因为你说“我们有Agent”就付钱，也不会因为你说“我们用了大模型”就放</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6399934.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="大模型时代的认知反转：我们为何从渴望“千人千面”转向渴求“稳定可控” AI 工具/服务 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>大模型时代的认知反转：我们为何从渴望“千人千面”转向渴求“稳定可控”</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.7</div>
+    </div>
+    <p>大模型时代，用户的焦虑点正从「追求个性化」转向「渴望确定性」。本文通过真实数据和案例揭示：当AI的输出变得过于自由时，企业反而开始寻找稳定、可控的解决方案。从电商客服到金融合规，从代码生成到合同审核，我们将拆解这种需求反转背后的三大逻辑，并给出在稳定框架内实现个性化落地的实用方法论。 一个有意思的观察正在发生：在大模型出现之前，所有人都在高喊“千人千面”；大模型遍地开花之后，大家却开始疯狂寻找“稳定、可控、可复现”。 这就像年轻人单身时</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6390975.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+      </div>
+    </section>
+
+    <section id="tab-watch" class="tab">
+      <div class="toolbar"><h2>观察池</h2><input class="search" data-search placeholder="搜观察项"></div>
+      <div class="cards" data-list>
+
+        <article class="card" data-text="小红书资料包：AI 工具学习路线与行业模板包 资料包/知识产品 人工观察 观察">
+    <div class="card-head">
+      <div>
+        <h3>小红书资料包：AI 工具学习路线与行业模板包</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">资料包/知识产品</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 7/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.95</div>
+    </div>
+    <p>新工具更新频繁，普通人缺少筛选和上手路径 / 资料包可以先从 Notion/飞书文档做最小交付</p>
+    <dl>
+      <dt>需求证据</dt><dd>新工具更新频繁，普通人缺少筛选和上手路径；资料包可以先从 Notion/飞书文档做最小交付；内容可同时反哺账号选题</dd>
+      <dt>付费证据</dt><dd>低客单资料包、社群门票、模板升级包</dd>
+      <dt>三天试法</dt><dd>整理一个 20 个工具以内的 AI 副业入门路径，发布目录截图测试收藏和私信</dd>
+      <dt>放弃信号</dt><dd>资料包赛道拥挤，必须有真实筛选和可执行样例，不能只堆链接</dd>
+      <dt>可沉淀</dt><dd>工具库、模板包、选题库</dd>
+    </dl>
+
+  </article>
+
+        <article class="card" data-text="当泡沫散尽，B端AI公司里值钱的只剩这一种人 AI 工具/服务 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>当泡沫散尽，B端AI公司里值钱的只剩这一种人</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.73</div>
+    </div>
+    <p>AI时代，真正不会被淘汰的不是“会用AI的人”，而是那些懂业务、懂技术、懂产品、懂客户、还能把问题落到结果的人。 最近我越来越确信这件事，尤其在B端AI行业，这个判断会变得越来越明显。 很多人以为B端AI的竞争是模型能力的竞争，看谁用了更强的大模型，谁有更漂亮的Agent概念，谁能把PPT讲得更像未来。 但真正进到客户现场以后，你会发现，事情根本不是这样。 客户不会因为你说“我们有Agent”就付钱，也不会因为你说“我们用了大模型”就放</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6399934.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="大模型时代的认知反转：我们为何从渴望“千人千面”转向渴求“稳定可控” AI 工具/服务 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>大模型时代的认知反转：我们为何从渴望“千人千面”转向渴求“稳定可控”</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.7</div>
+    </div>
+    <p>大模型时代，用户的焦虑点正从「追求个性化」转向「渴望确定性」。本文通过真实数据和案例揭示：当AI的输出变得过于自由时，企业反而开始寻找稳定、可控的解决方案。从电商客服到金融合规，从代码生成到合同审核，我们将拆解这种需求反转背后的三大逻辑，并给出在稳定框架内实现个性化落地的实用方法论。 一个有意思的观察正在发生：在大模型出现之前，所有人都在高喊“千人千面”；大模型遍地开花之后，大家却开始疯狂寻找“稳定、可控、可复现”。 这就像年轻人单身时</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6390975.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="即时零售：零食品牌的下一场“抢滩登陆战” 电商/平台 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>即时零售：零食品牌的下一场“抢滩登陆战”</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">电商/平台</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.3</div>
+    </div>
+    <p>即时零售正在彻底重塑零食行业的消费逻辑，从满足饥饿到占领心智的转变背后，隐藏着品牌生死攸关的战略抉择。本文深度剖析即时零售三大核心规则、头部品牌场景化运营秘笈，以及线下终端如何变身前置仓的实战打法，揭示这场围绕年轻人「即时满足」需求展开的终极卡位战。 2026年，即时零售已经从&#8221;外卖的附赠品&#8221;蜕变为一个独立的战略战场。平台不只是卖饭的工具，正在成为年轻人&#8221;即时满足&#8221;的首选入口。 而零食，这</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/it/6399862.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="美团的TOB商家运营模式拆解——把成熟的东西重新拆解一遍，就能发现新东西（一） AI 工具/服务 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>美团的TOB商家运营模式拆解——把成熟的东西重新拆解一遍，就能发现新东西（一）</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 5/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.08</div>
+    </div>
+    <p>O2O模式虽已不新鲜，但在toB业务中仍有巨大潜力可挖。美团通过商家分层管理、AI工具提效和资金扶持构建的完整运营体系，为行业提供了教科书级的参考范本。本文将深入拆解美团商家运营的三重核心策略，提炼出可跨行业复用的B端服务营销方法论。 近期公司业务调整，期望在原有的基础上，探索O2O模式对业务的赋能效果。诚然，现在聊O2O已经不新鲜了，甚至有点老旧了。但是既然战略已定，那总得试一试再说，对吧？所以作为toB的业务，我做的第一件事就是，瞄</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/share/6397843.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="“人货场模型”深度拆解：分析框架、建模思路、业务建议 内容/IP/知识产品 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>“人货场模型”深度拆解：分析框架、建模思路、业务建议</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">内容/IP/知识产品</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.01</div>
+    </div>
+    <p>当业务数据出现波动时，如何快速定位问题根源？'人货场'模型提供了结构化分析框架，通过人、货、场三个维度拆解业务，帮助产品经理从海量数据中精准锁定关键问题。这套方法论不仅适用于收入分析，还能解决用户增长、商业化等80%的业务难题，5个实操步骤教你从数据表象直达业务本质。 “我看到收入下降/新增用户减少/转化率不行，该怎么进一步分析呢？”很多人有类似困惑，尤其怕写了一堆“同步收入下降5%，环比下降”得不出对业务有价值的结论。 这里推荐一个简</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/share/6399763.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+      </div>
+    </section>
+
+    <section id="tab-risk" class="tab">
+      <div class="toolbar"><h2>避坑册</h2><input class="search" data-search placeholder="搜风险项"></div>
+      <div class="cards" data-list>
+
+          <div class="empty">暂未收录高风险项。后续会把疑似割韭菜、灰产、强平台风险方向封存到这里。</div>
+
+      </div>
+    </section>
+
+    <section id="tab-all" class="tab">
+      <div class="toolbar"><h2>全阁索引</h2><input class="search" data-search placeholder="搜全部线索"></div>
+      <div class="cards" data-list>
+
+        <article class="card" data-text="闲鱼技能服务：AI 简历优化与求职材料改写 平台轻服务 人工观察 可试">
+    <div class="card-head">
+      <div>
+        <h3>闲鱼技能服务：AI 简历优化与求职材料改写</h3>
+        <div class="meta">
+          <span class="tag green">可试</span>
+          <span class="tag">平台轻服务</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 10/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">6.18</div>
+    </div>
+    <p>求职季长期存在简历改写、岗位匹配、面试话术需求 / 供给可以从单个服务帖和标准化交付模板开始</p>
+    <dl>
+      <dt>需求证据</dt><dd>求职季长期存在简历改写、岗位匹配、面试话术需求；供给可以从单个服务帖和标准化交付模板开始；不需要囤货，不需要复杂开发，3 天可上架验证</dd>
+      <dt>付费证据</dt><dd>可按单收取简历诊断、改写、岗位匹配包费用</dd>
+      <dt>三天试法</dt><dd>准备 3 个样例前后对比，发布 1 个闲鱼服务帖和 1 篇小红书引流笔记，观察咨询率</dd>
+      <dt>放弃信号</dt><dd>容易陷入低价代写，需要强调诊断和修改建议，避免承诺包过</dd>
+      <dt>可沉淀</dt><dd>简历诊断清单、岗位匹配 prompt、服务话术模板</dd>
+    </dl>
+
+  </article>
+
+        <article class="card" data-text="本地商家轻服务：团购页文案和门店图文改造 本地生活 人工观察 可试">
+    <div class="card-head">
+      <div>
+        <h3>本地商家轻服务：团购页文案和门店图文改造</h3>
+        <div class="meta">
+          <span class="tag green">可试</span>
+          <span class="tag">本地生活</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 8/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">5.74</div>
+    </div>
+    <p>大量小店不会写团购标题、卖点和点评回复 / AI 可把交付压缩为诊断表、标题包和图片文案包</p>
+    <dl>
+      <dt>需求证据</dt><dd>大量小店不会写团购标题、卖点和点评回复；AI 可把交付压缩为诊断表、标题包和图片文案包；可以从身边商家或公开门店页做样例</dd>
+      <dt>付费证据</dt><dd>按店铺诊断、套餐文案、点评回复模板收费</dd>
+      <dt>三天试法</dt><dd>选 3 家公开门店做免费诊断样例，发布前后对比图文，观察本地商家咨询</dd>
+      <dt>放弃信号</dt><dd>线下获客耗时，第一阶段只验证线上样例是否有人咨询</dd>
+      <dt>可沉淀</dt><dd>门店诊断表、团购标题库、点评回复模板</dd>
+    </dl>
+
+  </article>
+
+        <article class="card" data-text="小红书资料包：AI 工具学习路线与行业模板包 资料包/知识产品 人工观察 观察">
+    <div class="card-head">
+      <div>
+        <h3>小红书资料包：AI 工具学习路线与行业模板包</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">资料包/知识产品</span>
+          <span class="tag gold">人工观察</span>
+          <span class="tag">低成本 7/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.95</div>
+    </div>
+    <p>新工具更新频繁，普通人缺少筛选和上手路径 / 资料包可以先从 Notion/飞书文档做最小交付</p>
+    <dl>
+      <dt>需求证据</dt><dd>新工具更新频繁，普通人缺少筛选和上手路径；资料包可以先从 Notion/飞书文档做最小交付；内容可同时反哺账号选题</dd>
+      <dt>付费证据</dt><dd>低客单资料包、社群门票、模板升级包</dd>
+      <dt>三天试法</dt><dd>整理一个 20 个工具以内的 AI 副业入门路径，发布目录截图测试收藏和私信</dd>
+      <dt>放弃信号</dt><dd>资料包赛道拥挤，必须有真实筛选和可执行样例，不能只堆链接</dd>
+      <dt>可沉淀</dt><dd>工具库、模板包、选题库</dd>
+    </dl>
+
+  </article>
+
+        <article class="card" data-text="当泡沫散尽，B端AI公司里值钱的只剩这一种人 AI 工具/服务 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>当泡沫散尽，B端AI公司里值钱的只剩这一种人</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.73</div>
+    </div>
+    <p>AI时代，真正不会被淘汰的不是“会用AI的人”，而是那些懂业务、懂技术、懂产品、懂客户、还能把问题落到结果的人。 最近我越来越确信这件事，尤其在B端AI行业，这个判断会变得越来越明显。 很多人以为B端AI的竞争是模型能力的竞争，看谁用了更强的大模型，谁有更漂亮的Agent概念，谁能把PPT讲得更像未来。 但真正进到客户现场以后，你会发现，事情根本不是这样。 客户不会因为你说“我们有Agent”就付钱，也不会因为你说“我们用了大模型”就放</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6399934.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="大模型时代的认知反转：我们为何从渴望“千人千面”转向渴求“稳定可控” AI 工具/服务 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>大模型时代的认知反转：我们为何从渴望“千人千面”转向渴求“稳定可控”</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.7</div>
+    </div>
+    <p>大模型时代，用户的焦虑点正从「追求个性化」转向「渴望确定性」。本文通过真实数据和案例揭示：当AI的输出变得过于自由时，企业反而开始寻找稳定、可控的解决方案。从电商客服到金融合规，从代码生成到合同审核，我们将拆解这种需求反转背后的三大逻辑，并给出在稳定框架内实现个性化落地的实用方法论。 一个有意思的观察正在发生：在大模型出现之前，所有人都在高喊“千人千面”；大模型遍地开花之后，大家却开始疯狂寻找“稳定、可控、可复现”。 这就像年轻人单身时</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6390975.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="即时零售：零食品牌的下一场“抢滩登陆战” 电商/平台 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>即时零售：零食品牌的下一场“抢滩登陆战”</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">电商/平台</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.3</div>
+    </div>
+    <p>即时零售正在彻底重塑零食行业的消费逻辑，从满足饥饿到占领心智的转变背后，隐藏着品牌生死攸关的战略抉择。本文深度剖析即时零售三大核心规则、头部品牌场景化运营秘笈，以及线下终端如何变身前置仓的实战打法，揭示这场围绕年轻人「即时满足」需求展开的终极卡位战。 2026年，即时零售已经从&#8221;外卖的附赠品&#8221;蜕变为一个独立的战略战场。平台不只是卖饭的工具，正在成为年轻人&#8221;即时满足&#8221;的首选入口。 而零食，这</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/it/6399862.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="美团的TOB商家运营模式拆解——把成熟的东西重新拆解一遍，就能发现新东西（一） AI 工具/服务 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>美团的TOB商家运营模式拆解——把成熟的东西重新拆解一遍，就能发现新东西（一）</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 5/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.08</div>
+    </div>
+    <p>O2O模式虽已不新鲜，但在toB业务中仍有巨大潜力可挖。美团通过商家分层管理、AI工具提效和资金扶持构建的完整运营体系，为行业提供了教科书级的参考范本。本文将深入拆解美团商家运营的三重核心策略，提炼出可跨行业复用的B端服务营销方法论。 近期公司业务调整，期望在原有的基础上，探索O2O模式对业务的赋能效果。诚然，现在聊O2O已经不新鲜了，甚至有点老旧了。但是既然战略已定，那总得试一试再说，对吧？所以作为toB的业务，我做的第一件事就是，瞄</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/share/6397843.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="“人货场模型”深度拆解：分析框架、建模思路、业务建议 内容/IP/知识产品 人人都是产品经理 观察">
+    <div class="card-head">
+      <div>
+        <h3>“人货场模型”深度拆解：分析框架、建模思路、业务建议</h3>
+        <div class="meta">
+          <span class="tag green">观察</span>
+          <span class="tag">内容/IP/知识产品</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">4.01</div>
+    </div>
+    <p>当业务数据出现波动时，如何快速定位问题根源？'人货场'模型提供了结构化分析框架，通过人、货、场三个维度拆解业务，帮助产品经理从海量数据中精准锁定关键问题。这套方法论不仅适用于收入分析，还能解决用户增长、商业化等80%的业务难题，5个实操步骤教你从数据表象直达业务本质。 “我看到收入下降/新增用户减少/转化率不行，该怎么进一步分析呢？”很多人有类似困惑，尤其怕写了一堆“同步收入下降5%，环比下降”得不出对业务有价值的结论。 这里推荐一个简</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/share/6399763.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="每提问一次亮灯两分钟，生图一次充满一部手机：请收起你们的算力自嗨 AI 工具/服务 人人都是产品经理 暂缓">
+    <div class="card-head">
+      <div>
+        <h3>每提问一次亮灯两分钟，生图一次充满一部手机：请收起你们的算力自嗨</h3>
+        <div class="meta">
+          <span class="tag green">暂缓</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">3.98</div>
+    </div>
+    <p>AI大模型的每一次调用背后，都隐藏着惊人的能源消耗。从简单的提问到炫酷的图像生成，这些看似无害的操作正在无声地吞噬企业利润。本文通过制造业质检与采购系统的实战案例，揭示如何用极度克制的产品设计，将AI从成本黑洞变为真正的ROI加速器。 最近科技圈有一组极其硬核、甚至让人脊背发凉的算力能耗数据在刷屏。 数据很简单，但触目惊心：用户在主流大模型里每提问一次，消耗的电能足够让一盏普通灯泡亮足足两分钟；而每一次让 AI 炫技般地生成一张高清图片</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6399694.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="当 AI 成为角色：漫谈我的 SillyTavern 使用经验 AI 工具/服务 少数派 暂缓">
+    <div class="card-head">
+      <div>
+        <h3>当 AI 成为角色：漫谈我的 SillyTavern 使用经验</h3>
+        <div class="meta">
+          <span class="tag green">暂缓</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">少数派</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">3.82</div>
+    </div>
+    <p>ST 以及它背后的这套工作流起初只是我的无心的收获，但网上关于这方面的讨论并不多，实在可惜，故有此文。查看全文</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://sspai.com/post/109869" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="「招投标AI落地观察」暗箱里的算力 —— AI时代招标文件的潜规则识别 AI 工具/服务 人人都是产品经理 暂缓">
+    <div class="card-head">
+      <div>
+        <h3>「招投标AI落地观察」暗箱里的算力 —— AI时代招标文件的潜规则识别</h3>
+        <div class="meta">
+          <span class="tag green">暂缓</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">3.82</div>
+    </div>
+    <p>国家发改委的数据显示，AI检测模型在3.1万份招标文件中揪出了1.9万个歧视性条款，但真正的博弈远不止这些表面问题。本文将深入剖析AI检测的视力表与盲区，揭示招标文件中那些合法却带有定向筛选意图的'柔术'条款，以及AI在信息不对称面前的无奈。这是一场算法与人性博弈的新维度战争。 去年底，国家发改委发布了一组数据：AI检测模型累计扫描了3.1万份招标文件，揪出歧视性条款1.9万个。平均每份文件0.61个雷。这个数字很漂亮。技术自信、监管自</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6399753.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="属于小红书的种草时代，结束了 内容/IP/知识产品 人人都是产品经理 暂缓">
+    <div class="card-head">
+      <div>
+        <h3>属于小红书的种草时代，结束了</h3>
+        <div class="meta">
+          <span class="tag green">暂缓</span>
+          <span class="tag">内容/IP/知识产品</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">3.82</div>
+    </div>
+    <p>小红书商业生态的剧变正在颠覆传统种草逻辑。随着平台监管趋严、达人报价飙升和投流成本激增，品牌方不得不从粗放式投放转向精准转化策略。本文深度剖析平台红利消失背后的底层逻辑，并提供小赛道关键词抢占与大赛道渗透率打法的实战解决方案，揭示新环境下品牌增长的破局之道。 大家有没有一种感受，小红书对素人账号越来越不友好了，相比几年前随手发都有流量，现在经常会出现小眼睛两位数甚至是个位数。品牌投放上成本也越来越高，达人报价一年比一年贵，投流成本也在涨</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/share/6399859.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="如何用AI打造一家自我进化的公司 AI 工具/服务 人人都是产品经理 暂缓">
+    <div class="card-head">
+      <div>
+        <h3>如何用AI打造一家自我进化的公司</h3>
+        <div class="meta">
+          <span class="tag green">暂缓</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">3.82</div>
+    </div>
+    <p>YC合伙人Ryo揭示了AI正在颠覆千年不变的组织逻辑——公司不再是罗马军团式的层级结构，而应重构为递归自进化的AI闭环系统。本文深度解析如何将领域知识转化为AI可读的智能资产，构建能自动修复升级的self-improving loops，以及为何中层管理将在这场变革中消亡。 你有没有认真想过，你的公司其实和两千年前的罗马军团没什么本质区别？听起来很荒谬，但这是YC（Y Combinator）合伙人Ryo最近在一次内部分享中抛出的观点。他</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6399850.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="万字干货：这可能是全网最实战的「用 Claude Code 做产品」完整方法论 AI 工具/服务 人人都是产品经理 暂缓">
+    <div class="card-head">
+      <div>
+        <h3>万字干货：这可能是全网最实战的「用 Claude Code 做产品」完整方法论</h3>
+        <div class="meta">
+          <span class="tag green">暂缓</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">3.82</div>
+    </div>
+    <p>一名零基础的产品经理，仅凭6周时间和1万元预算，通过62,376次与Claude Code的对话交互，竟独立开发出具备长期记忆和自进化能力的AI桌面应用『阿布』。这款应用不仅能操作本地文件、抓取网页数据，还实现了7×24小时自动化运行和跨平台集成。本文将完整拆解这段从技术小白到AI开发者的奇幻旅程，揭秘8.5万行代码背后的高效工作流与避坑指南。 3月1日那天，我跟 Claude Code 发了 9,259 条消息，一天，从早到晚。那天是</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/ai/6399524.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="iOS 里的这些实用辅助功能，每个人都可能用得上 内容/IP/知识产品 少数派 暂缓">
+    <div class="card-head">
+      <div>
+        <h3>iOS 里的这些实用辅助功能，每个人都可能用得上</h3>
+        <div class="meta">
+          <span class="tag green">暂缓</span>
+          <span class="tag">内容/IP/知识产品</span>
+          <span class="tag gold">少数派</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">3.77</div>
+    </div>
+    <p>说到辅助功能，或许很多人对它的回忆还停留在「小白点」。但随着 iPhone 彻底进入全面屏时代，辅助功能也慢慢变得陌生起来。实际上，Apple 每年都会给它添加不少功能，来方便更多身体有障人士来使用 iPhone。 不过，尽管它是为了各种有障人群而开发，其中不少功能却能惠及所有 iPhone 用户。而随着 iOS 26 的更新，辅助功能又迎来了不少升级。下面这些实用的小功能，或许还真能帮到你不少。 防止晕车 相信你肯定有过在公交车或网约</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://sspai.com/post/104073" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+        <article class="card" data-text="2016怀旧潮：一场对“真实人格”的系统修复 AI 工具/服务 人人都是产品经理 暂缓">
+    <div class="card-head">
+      <div>
+        <h3>2016怀旧潮：一场对“真实人格”的系统修复</h3>
+        <div class="meta">
+          <span class="tag green">暂缓</span>
+          <span class="tag">AI 工具/服务</span>
+          <span class="tag gold">人人都是产品经理</span>
+          <span class="tag">低成本 4/10</span>
+          <span class="tag red">风险 0/10</span>
+        </div>
+      </div>
+      <div class="score">3.77</div>
+    </div>
+    <p>2016年为何成为数字时代的集体乡愁？当AI驯化与算法异化席卷生活，人们开始怀念那个还能做真实自我的年代。本文深度剖析2016-2026这十年间数字人格的折叠历程，从Uber补贴大战到AI技能包焦虑，揭示我们如何在系统升级中逐渐失去主体性。作者提出通过复活旧物、创建数字生命等「无用」行为，发起对工具化时代最温柔的反叛。 当系统将我们优化为“技能包”，2016年便成了我们集体走失的坐标。这不是怀旧，是失踪人口的溯源。而我的修复方式，是尝试</p>
+    <dl>
+      <dt>需求证据</dt><dd>公开内容源出现相关信号；标题或摘要命中副业机会关键词</dd>
+      <dt>付费证据</dt><dd>待验证：需要进一步查看评论、交易页或同类报价</dd>
+      <dt>三天试法</dt><dd>用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本</dd>
+      <dt>放弃信号</dt><dd>公开内容信号较弱，需防止把资讯误判为可做机会</dd>
+      <dt>可沉淀</dt><dd>关键词清单、案例库、验证记录</dd>
+    </dl>
+    <p><a href="https://www.woshipm.com/share/6399881.html" target="_blank" rel="noopener">查看来源</a></p>
+  </article>
+
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const tabButtons = document.querySelectorAll('[data-tab]');
+    const tabs = document.querySelectorAll('.tab');
+    tabButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        tabButtons.forEach((b) => b.classList.remove('active'));
+        tabs.forEach((t) => t.classList.remove('active'));
+        button.classList.add('active');
+        document.getElementById('tab-' + button.dataset.tab).classList.add('active');
+      });
+    });
+    document.querySelectorAll('[data-search]').forEach((input) => {
+      input.addEventListener('input', () => {
+        const query = input.value.trim().toLowerCase();
+        const section = input.closest('.tab');
+        section.querySelectorAll('[data-text]').forEach((card) => {
+          card.style.display = card.dataset.text.toLowerCase().includes(query) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
