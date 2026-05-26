@@ -3,10 +3,13 @@
     "name": "知乎副业搜索",
     "type": "search",
     "platform": "知乎/搜索",
-    "url": "https://www.baidu.com/s?wd=site%3Azhihu.com%20副业%20AI%20怎么做",
+    "query": "site:zhihu.com AI 副业 怎么做 付费 接单",
+    "opportunity_title": "知乎需求抽样：AI 副业入门、接单与付费验证",
     "track": "AI 工具/服务",
-    "enabled": false,
-    "note": "V1 先保留配置，后续用浏览器辅助或搜索 API 接入"
+    "tier": "social",
+    "enabled": true,
+    "limit": 8,
+    "note": "通过 Bing News RSS 抽样公开搜索结果，不使用登录态"
   },
   {
     "name": "少数派",
@@ -14,6 +17,7 @@
     "platform": "少数派",
     "url": "https://sspai.com/feed",
     "track": "AI 工具/效率",
+    "tier": "vertical",
     "enabled": true
   },
   {
@@ -22,6 +26,7 @@
     "platform": "人人都是产品经理",
     "url": "https://www.woshipm.com/feed",
     "track": "内容/IP/产品服务",
+    "tier": "vertical",
     "enabled": true
   },
   {
@@ -30,6 +35,72 @@
     "platform": "电商报",
     "url": "https://www.dsb.cn/feed",
     "track": "电商/平台",
+    "tier": "market",
     "enabled": true
+  },
+  {
+    "name": "Product Hunt",
+    "type": "rss",
+    "platform": "Product Hunt",
+    "url": "https://www.producthunt.com/feed",
+    "track": "AI 工具/服务",
+    "tier": "market",
+    "enabled": true,
+    "limit": 10,
+    "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询"
+  },
+  {
+    "name": "Indie Hackers",
+    "type": "rss",
+    "platform": "Indie Hackers",
+    "url": "https://www.indiehackers.com/feed.xml",
+    "track": "内容/IP/知识产品",
+    "tier": "vertical",
+    "enabled": true,
+    "limit": 10
+  },
+  {
+    "name": "Hacker News Show HN",
+    "type": "rss",
+    "platform": "Hacker News",
+    "url": "https://hnrss.org/show",
+    "track": "AI 工具/服务",
+    "tier": "market",
+    "enabled": true,
+    "limit": 10
+  },
+  {
+    "name": "小红书 AI 副业公开搜索",
+    "type": "search",
+    "platform": "小红书/搜索",
+    "query": "site:xiaohongshu.com AI 副业 模板 接单 资料包",
+    "opportunity_title": "小红书资料包信号：AI 副业模板与学习路径",
+    "track": "内容/IP/知识产品",
+    "tier": "social",
+    "enabled": true,
+    "limit": 8,
+    "note": "只抓公开搜索摘要，作为社媒需求信号，不直接抓登录态页面"
+  },
+  {
+    "name": "闲鱼服务公开搜索",
+    "type": "search",
+    "platform": "闲鱼/搜索",
+    "query": "闲鱼 AI 简历 PPT 代做 接单 报价",
+    "opportunity_title": "闲鱼轻服务信号：AI 简历、PPT 与文案代做",
+    "track": "平台轻服务",
+    "tier": "social",
+    "enabled": true,
+    "limit": 8
+  },
+  {
+    "name": "知乎自动化需求公开搜索",
+    "type": "search",
+    "platform": "知乎/搜索",
+    "query": "site:zhihu.com 自动化 脚本 代运营 怎么做 收费",
+    "opportunity_title": "知乎需求抽样：自动化脚本与轻代运营服务",
+    "track": "自动化/代运营",
+    "tier": "social",
+    "enabled": true,
+    "limit": 8
   }
 ]

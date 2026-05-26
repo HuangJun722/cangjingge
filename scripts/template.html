@@ -89,6 +89,7 @@
     .tag.red { color: var(--seal); border-color: rgba(157,47,47,0.32); }
     .tag.green { color: var(--jade); border-color: rgba(31,107,91,0.32); }
     .tag.gold { color: var(--gold); border-color: rgba(168,118,42,0.36); }
+    .tag.blue { color: var(--blue); border-color: rgba(53,92,125,0.34); }
     .card p { margin: 8px 0 0; line-height: 1.65; color: var(--muted); font-size: 14px; }
     .card dl { display: grid; grid-template-columns: 88px minmax(0,1fr); gap: 8px 12px; margin: 14px 0 0; font-size: 13px; }
     .card dt { color: var(--gold); }
@@ -126,6 +127,7 @@
           <span class="tag green">{{ item.verdict }}</span>
           <span class="tag">{{ item.track }}</span>
           <span class="tag gold">{{ item.platform }}</span>
+          <span class="tag blue">{{ item.source_type }} / {{ item.source_tier }}</span>
           <span class="tag">低成本 {{ item.scores.low_cost }}/10</span>
           <span class="tag red">风险 {{ item.scores.risk }}/10</span>
         </div>
@@ -138,6 +140,7 @@
       <dt>付费证据</dt><dd>{{ item.paid_signal }}</dd>
       <dt>三天试法</dt><dd>{{ item.first_test }}</dd>
       <dt>放弃信号</dt><dd>{{ item.risk_note }}</dd>
+      <dt>复核结论</dt><dd>{{ item.review_note or '待复核' }}</dd>
       <dt>可沉淀</dt><dd>{{ item.asset }}</dd>
     </dl>
     {% if item.source_url %}<p><a href="{{ item.source_url }}" target="_blank" rel="noopener">查看来源</a></p>{% endif %}
