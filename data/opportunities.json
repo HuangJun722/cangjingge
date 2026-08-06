@@ -1,169 +1,15 @@
 {
-  "generated_at": "2026-08-05T12:32:31+08:00",
+  "generated_at": "2026-08-06T12:32:52+08:00",
   "positioning": "中文副业机会私人看板，优先寻找 3-7 天可低成本验证的小机会。",
   "review_mode": "ai_optional_heuristic_fallback",
   "opportunities": [
     {
-      "id": "rss-https-www-woshipm-com-share-6440337-html",
-      "title": "一套能用的合同管理系统，应该具备哪些基本功能？",
+      "id": "rss-https-www-woshipm-com-ai-6440530-html",
+      "title": "把我的价值赋能给 AI，那我还值什么？",
       "track": "AI 工具/服务",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/share/6440337.html",
-      "summary": "合同管理系统不只是上传、审批、归档那么简单。真正的闭环管理，从签约准备到履约变更，每一步都不能断。本文拆解合同系统的八组核心能力，并推荐一款开源合同管理系统，帮助企业快速搭建基础管理框架。 上一篇写完以后，有朋友问我： 合同管理系统，不就是上传一份文件，找几个人审批，审批完成以后存起来吗？ 这个理解不能说错。 因为很多企业第一次买合同系统，最急着解决的就是这三件事：合同别再躺在个人电脑里，审批别再追着领导跑，法务查文件时别再翻半天柜子。 上传、审批、归档，确实能解决问题。 但它解决的，只是一份合同最容易被看见的那一",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "搜索词指向社媒/社区讨论，需要人工二次抽样确认",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "demand",
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
-      "scores": {
-        "total": 7.0,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6440508-html",
-      "title": "万字深度访谈FDE：企业AI化卡在哪了？",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6440508.html",
-      "summary": "FDE，前线部署工程师，一个被AI落地困境重新激活的角色。他们深入企业现场，发现模型能力往往不是最先出现的障碍，真正费力的是把模糊需求还原成业务流程。本文通过一位从AI产品经理转岗FDE的从业者视角，拆解这个复合型岗位的核心能力与价值。 我之前写过一篇文章，是专门去讲FDE这个岗位的。而这周末跟一个做FDE的朋友约了顿饭，聊了很久。 FDE，前线部署工程师，一个被 AI 落地困境重新激活的角色。他去过制造业工厂、知识产权公司、国央企，见过各种「接了 AI 但用不起来」的现场。 我想知道的是，那些说要做 AI 转型的",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "demand",
-        "paid",
-        "low_cost",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
-      "scores": {
-        "total": 7.0,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "观察"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6440438-html",
-      "title": "2026 年，AI 产品争夺的不是功能，而是任务闭环",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6440438.html",
-      "summary": "垂直SaaS与AI原生公司正围绕任务闭环控制权展开竞争。本文从B端记录系统向行动系统的转变、C端上下文飞轮的构建，以及Genspark的混合路径切入，拆解AI产品壁垒的真正来源：有效上下文、工作流位置、执行权限与信任治理的乘积。 最近入职一家垂直行业 SaaS 公司之后，我开始从企业内部观察 AI 产品化 公司原来的产品已经承载了客户、流程和业务数据，也形成了相对稳定的用户习惯。现在要做的，是让 AI 进入这些系统，理解用户正在处理的工作，并把原来需要人推动的环节继续向前推进 这让我最先想到一个判断：垂直 SaaS",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "demand",
-        "paid",
-        "low_cost",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
-      "scores": {
-        "total": 7.0,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6438527-html",
-      "title": "不懂代码的我居然真的用AI开发了一款叫「彭兔子」的宠物服饰制版系统",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6438527.html",
-      "summary": "从零基础小白到独立开发者，作者用AI工具打造了一款宠物服饰智能制版系统。本文分享了从自用工具到商业化产品的完整历程，包括开发中的踩坑经验、AI工具的选择与协作技巧，以及如何用AI实现复杂功能。对于想尝试AI开发却无从下手的人，这是一份极具参考价值的实战指南。 “Vibe coding”（氛围编程/感觉流编程）是一个由Andrej Karpathy（OpenAI联合创始人、前特斯拉AI总监）在2025年初提出的新概念。它描述了在AI时代，一种全新的、更随性的编程方式。简单来说，vibe coding 是指开发者通过自",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "demand",
-        "paid",
-        "low_cost",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
-      "scores": {
-        "total": 7.0,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6440528-html",
-      "title": "把 5 个 Skill 串成需求流水线，关键不是调用顺序",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6440528.html",
-      "summary": "这是「AI 协作」系列二第 9 篇，也是这一轮的暂时收尾。前八篇从跑通一次 AI 协作，写到单个 Skill 的适配、控制和诊断；这一篇把视线移到 Skill 之间，看多个节点怎样交接、验收和回退。 读完这篇，你不需要先集齐 5 个 Skill。先拿一条最近真正跑过的三节点链路，写清两次交接要交什么、下一环什么时候能开工、出错后退回哪里，再看它能不能拒收一次不合格交接。 75 分钟交付三份材料，不等于工作流已经可靠 在第 2 篇里，我写过一次让我很有成就感的实践。 A 品牌要在双 11 前合并 80 万会员。会员中",
+      "source_url": "https://www.woshipm.com/ai/6440530.html",
+      "summary": "AI 工具正在重塑产品经理的工作方式，但效率提升的背后，是个人价值与判断力的重新定位。本文通过微信会员卡对接的实战案例，探讨如何将经验迁移给 AI，以及在 AI 协作中如何守住核心决策权，为产品人提供了一套可复用的思考框架。 近期茶余饭后的闲谈，聊得最多的，还是各自最近的 AI 应用进展。 拿最近手头的工作来说，微信会员卡对接就是一个很直观的例子。 以前遇到这类需求，我需要自己啃官方接口文档，梳理不同版本的能力和体验差异，再和业务讨论应用场景、确认前置流程和材料，最后整理出交互 Demo、待讨论问题和需求文档。 现",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
@@ -181,8 +27,118 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
+      "scores": {
+        "total": 7.37,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 8,
+        "asset": 4,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-ai-6441227-html",
+      "title": "Skill的方法论和工程化评估，用数据迭代优化",
+      "track": "自动化/代运营",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/ai/6441227.html",
+      "summary": "当AI工具成为团队标配，如何让AI真正理解并执行团队规范？Skill或许是最佳答案。本文从产品经理视角出发，将Skill比作AI的“专业能力包”，拆解其设计逻辑与落地方法，帮助你将个人经验转化为团队可复用的能力资产，提升AI应用的稳定性与效率。 最近团队里技术同学给我甩了一篇关于怎么写好Skill的长文，我本来以为又是堆代码的硬核教程，结果翻完突然有点激动——因为这玩意儿从产品经理眼里看过去，根本不是“给AI写配置文件”，而是把人的经验做成可复用产品的过程。 今天我不讲代码细节，咱们站在产品经理的视角，用大白话把这",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "low_cost"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
+      "scores": {
+        "total": 7.23,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 8,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-share-6441308-html",
+      "title": "AI 时代，软件交付逻辑也要改变了，技术不再是重点，一切回归业务本身",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/share/6441308.html",
+      "summary": "智能问数产品如何真正落地？本文指出，软件行业比拼的早已不是技术，而是对业务场景的深度理解。通过剖析企业不同岗位的真实需求，提出“框架通用、业务定制”的架构思路，强调技术必须嵌入组织体系，才能避免项目失败。 在我看来现在的软件行业比拼的早就不是基础技术能力，而是对算法底层逻辑、技术原理，以及客户业务场景的深度的理解：是否吃透客户的业务场景、能否跟客户的业务动作及指标口径对齐，是否沉淀同场景行业实操经验，这有点偏向商业咨询顾问的技能。 客户请服务商过来，本质是解决业务问题，服务商对业务的理解，不能弱于企业内部人员。拔高",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "demand",
+        "low_cost",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
+      "scores": {
+        "total": 7.01,
+        "demand": 10,
+        "paid": 9,
+        "low_cost": 8,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "观察"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-ai-6441507-html",
+      "title": "听说一些公司开始做员工skills了",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/ai/6441507.html",
+      "summary": "当你的经验被做成技能包，AI就能替你上班。从企业蒸馏员工经验到数字人上岗，一场静默的职业替代正在发生。本文拆解这一机制的四步流程，探讨法律真空下的反抗与定价难题，带你看见职场未来的另一种可能。 我一个朋友，干企业陪跑的，五六年了。 前阵子他跟我说了个事，他陪跑的一家客户，把他做成Skills了。 他这几年给客户沉淀了一整套打法，怎么诊断，怎么拆问题，怎么跟老板对齐，全在他脑子里。 然后，客户要上AI，拉着他把这套东西一点点讲出来，整理成技能包，喂给了内部的AI；现在新员工的考核，调的就是这套东西。他讲什么，AI就按",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "low_cost"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
       "scores": {
         "total": 7.0,
         "demand": 10,
@@ -190,6 +146,192 @@
         "low_cost": 7,
         "asset": 3,
         "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-ai-6441217-html",
+      "title": "FDE为什么突然火了？AI落地缺的不是工具，而是能进现场的人",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/ai/6441217.html",
+      "summary": "FDE（前线部署工程师）正成为AI落地的新关键词。它并非新岗位，而是企业软件交付模式的回摆，折射出AI竞争从模型能力转向现场能力。本文深入解析FDE如何弥合产品与业务断层，并探讨其在银行等复杂场景中的关键价值。 最近 FDE 这个词出现得越来越多。 FDE，全称是 Forward Deployed Engineer，通常翻译成“前线部署工程师”或“前置部署工程师”。如果只从字面看，它像是一个新岗位；如果往深一点看，它其实反映了 AI 落地中的一个老问题： 工具可以标准化，但现场永远是复杂的。 过去几年，很多企业都在",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "low_cost",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
+      "scores": {
+        "total": 7.0,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-ai-6441319-html",
+      "title": "复刻爆款，为什么生成成功仍然等于失败？",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/ai/6441319.html",
+      "summary": "AI视频生成看似跑通，实则暗藏无数坑。本文作者亲历爆款复刻产品开发，从台词重复、镜头错位到人物不连续，揭示接口成功不等于产品成功的真相。六个实战教训，帮你避开AI产品设计中的致命误区。 那条视频第一次跑完时，后台看起来一点问题都没有。三个分段全部生成成功，拼接没有报错，下载按钮也正常亮着。可我把成片点开以后，越听越觉得不对。第一段从第一句开始，第二段又从第一句开始，到了第三段，还是同一句开场。 一条接近22秒的视频，被AI完整开场了三遍。 我第一反应是模型抽风了。后来把任务数据一层层扒开才发现，这次还真不能全怪模型",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
+      "scores": {
+        "total": 6.76,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 6,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-pd-6441231-html",
+      "title": "巴西支付为什么曾经贵还降不下来？-Pix的破局之道",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/pd/6441231.html",
+      "summary": "巴西支付曾因信用卡高费率而“贵”得离谱，市场失灵背后是银行、卡组织与收单机构的利益共谋。巴西央行推出Pix，以非营利基础设施打破僵局，降成本、提效率、破垄断，重塑支付格局。本文拆解Pix的破局逻辑与高明之处。 在《巴西支付曾经的“贵”和“慢”》中，我们了解到巴西支付曾经有多贵。 “贵”只是表象，更本质的问题是，在一个市场经济国家，既然有&#8221;贵&#8221;，为什么没有&#8221;便宜&#8221;的选项通过竞争把它打下来？ 巴西2017年及之前的支付方式 按照支付媒介的物理形态，巴西2017年及之前的支",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
+      "scores": {
+        "total": 6.76,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 6,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-it-6439010-html",
+      "title": "AI眼镜进入公共空间前，产品经理要补一张“旁观者旅程图”",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/it/6439010.html",
+      "summary": "AI眼镜的体验不只发生在镜片内。当设备看向他人、调用视觉AI或保存现场信息时，没有购买产品的旁观者也进入了产品流程。本文用一次会议室场景，拆解旁观者从发现、理解、表达异议到事后处理的完整旅程，以及产品经理可以写进PRD的公共状态与验收指标。 先看一个很普通的会议场景。 讨论结束后，佩戴AI眼镜的同事看向白板，说：“把刚才的内容整理成待办。” 眼镜开始识别白板，也收进了站在旁边的几个人和桌上的材料。镜框亮起一盏白灯，但会议室里没人确定：它是在拍照、录像，还是只做一次临时识别？内容会不会保存？会不会同步到其他应用？ 佩",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
+      "scores": {
+        "total": 6.76,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 6,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-ai-6441515-html",
+      "title": "卖AI的总得会AI吧？",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/ai/6441515.html",
+      "summary": "一家云服务公司推销材料中暴露的中英文混搭与审核缺失，揭示了AI时代“表面专业人士”的危机。本文从信息图破绽切入，剖析AI如何让不专业者批量生产错误，并强调专业人士的核心价值在于判断力而非解释力。卖AI的人，总得会AI吧。 前两天我收到一家云服务公司发来的推销软文。不得不说，现在市场真的卷，卷到云服务公司都开始玩以前互联网圈子假学习的那一套了——弄一张信息图，煞有介事猛一看信息量很大，仔细一看浪费时间。 我倒不是反对这种做法。毕竟作为潜在客户的我愿意打开来看，就已经说明这种做法是有效的。 但是，当我看到13张信息图里",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
+      "scores": {
+        "total": 6.72,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 6,
+        "asset": 3,
+        "crowding": 3,
         "risk": 0
       },
       "verdict": "可试"
@@ -220,7 +362,7 @@
       "source_type": "manual",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
       "date": "2026-05-21",
-      "updated_at": "2026-08-05T12:32:19+08:00",
+      "updated_at": "2026-08-06T12:32:40+08:00",
       "scores": {
         "total": 6.59,
         "demand": 8,
@@ -231,78 +373,6 @@
         "risk": 0
       },
       "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-it-6440519-html",
-      "title": "SaaS唯一抄不走的护城河，长在组织里",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/it/6440519.html",
-      "summary": "SaaS复利增长背后，真正驱动增长的是飞轮、J形曲线与组织成长。本文深入拆解SaaS企业跨越增长拐点的关键机制，揭示复利只是结果，组织能力才是决定成败的底层变量。 &#8220;SaaS是复利生意。&#8221; 这句话在行业里被反复引用，几乎成了某种共识的锚点。多数人只看到复利的结果，没看到驱动复利的底层机制。把复利当战略，等于把利息当本金。 SaaS的复利效应有三个来源。订阅收入按月累积，新合同叠加上存量，收入基数持续扩大。客户用得越久，续费金额越高，交叉销售和向上销售的空间随之打开。标准化产品摊薄了研发和基础",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "demand",
-        "low_cost",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
-      "scores": {
-        "total": 6.56,
-        "demand": 9,
-        "paid": 9,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "观察"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-share-6440723-html",
-      "title": "这才是真正的“销售分析”，而不是用AI罗列同环比",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/share/6440723.html",
-      "summary": "销售分析总被批不深入？关键在跳出结果指标，从流程、策略、标杆、激励四步深挖。本文以toB业务为例，拆解如何通过数据分析找到赢单策略、复制标杆经验，并评估激励效果，让报告真正有洞察。 销售分析事关公司收入，是最重要的分析。但是，很多同学的报告，就只是用AI罗列达成率、同环比，再加一句：“XX地区/XX产品严重不达标，要关注”就没了……导致经常被批：&#8221;分析不够深入!&#8221;领导不满意，自己也觉得没成就感。 实际上，如果把视线从收入=订单数*客单价这几个指标挪开，沿着：理流程→定策略→树标杆→量激励的顺",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "paid",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
-      "scores": {
-        "total": 6.45,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 6,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "观察"
     },
     {
       "id": "manual-ai",
@@ -330,7 +400,7 @@
       "source_type": "manual",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
       "date": "2026-05-21",
-      "updated_at": "2026-08-05T12:32:19+08:00",
+      "updated_at": "2026-08-06T12:32:40+08:00",
       "scores": {
         "total": 6.28,
         "demand": 8,
@@ -341,42 +411,6 @@
         "risk": 0
       },
       "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6440646-html",
-      "title": "把你的AI历史对话记录变成人，拉进群聊，帮你解决问题",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6440646.html",
-      "summary": "AI对话中藏着思考过程，却被锁在孤立会话里。对话议事会通过将历史对话视为独立知识实体，以第一人称视角参与新讨论，突破RAG与长上下文的局限。本文详解其架构、成本与隐私设计，为AI产品提供新思路。 1. 问题的本质 AI对话正在成为新型的“工作记忆”。 和笔记（需要主动整理）或文档（是最终成品）不同，AI对话里藏着思考过程本身：探索过的路径、被否定的方案、逐渐收敛的推理。 但问题很明显： 这些思考过程被锁在孤立的会话里。 比如139个会话、几十万字的对话记录，新开一个对话时这些全看不见。 现有方案各有各的毛病： RA",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "demand",
-        "low_cost",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
-      "scores": {
-        "total": 6.15,
-        "demand": 8,
-        "paid": 7,
-        "low_cost": 8,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "观察"
     },
     {
       "id": "rss-https-sspai-com-post-113087",
@@ -402,8 +436,8 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:21+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:42+08:00",
       "scores": {
         "total": 6.13,
         "demand": 8,
@@ -438,7 +472,7 @@
       "source_type": "manual",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
       "date": "2026-05-21",
-      "updated_at": "2026-08-05T12:32:19+08:00",
+      "updated_at": "2026-08-06T12:32:40+08:00",
       "scores": {
         "total": 5.94,
         "demand": 6,
@@ -451,12 +485,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-producthunt-com-products-vibe-buddy",
-      "title": "Vibe Buddy",
+      "id": "rss-https-www-producthunt-com-products-ngrok-ai-gateway",
+      "title": "ngrok AI Gateway",
       "track": "AI 工具/服务",
       "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/vibe-buddy",
-      "summary": "Hardware for AI coding Discussion | Link",
+      "source_url": "https://www.producthunt.com/products/ngrok-ai-gateway",
+      "summary": "One private gateway for every AI model Discussion | Link",
       "evidence": [
         "Product Hunt 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -474,8 +508,8 @@
       "source_tier": "market",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:26+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:47+08:00",
       "scores": {
         "total": 5.87,
         "demand": 8,
@@ -488,12 +522,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-producthunt-com-products-stynar",
-      "title": "Stynar",
+      "id": "rss-https-www-producthunt-com-products-backengine-mcp",
+      "title": "BackEngine MCP",
       "track": "AI 工具/服务",
       "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/stynar",
-      "summary": "The AI SDR that runs outbound for you Discussion | Link",
+      "source_url": "https://www.producthunt.com/products/backengine-mcp",
+      "summary": "Make private company knowledge usable for AI Discussion | Link",
       "evidence": [
         "Product Hunt 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -511,8 +545,8 @@
       "source_tier": "market",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:26+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:47+08:00",
       "scores": {
         "total": 5.87,
         "demand": 8,
@@ -525,12 +559,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-producthunt-com-products-finyuus",
-      "title": "Finyuus",
+      "id": "rss-https-www-producthunt-com-products-adant-ai",
+      "title": "AdAnt AI",
       "track": "AI 工具/服务",
       "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/finyuus",
-      "summary": "A code-first language for durable, governed AI workflows Discussion | Link",
+      "source_url": "https://www.producthunt.com/products/adant-ai",
+      "summary": "Claude for viral, high-converting social ads Discussion | Link",
       "evidence": [
         "Product Hunt 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -548,8 +582,8 @@
       "source_tier": "market",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:26+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:47+08:00",
       "scores": {
         "total": 5.87,
         "demand": 8,
@@ -562,12 +596,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-producthunt-com-products-crodo-ai",
-      "title": "Crodo AI",
+      "id": "rss-https-www-producthunt-com-products-keystroke-2",
+      "title": "Keystroke",
       "track": "AI 工具/服务",
       "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/crodo-ai",
-      "summary": "Your voice-first AI assistant for macOS Discussion | Link",
+      "source_url": "https://www.producthunt.com/products/keystroke-2",
+      "summary": "Build powerful AI agents & workflows Discussion | Link",
       "evidence": [
         "Product Hunt 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -585,8 +619,8 @@
       "source_tier": "market",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:26+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:47+08:00",
       "scores": {
         "total": 5.87,
         "demand": 8,
@@ -599,12 +633,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-github-com-aidress-ai-aidress",
-      "title": "Show HN: Aidress – open-source discovery and trust registry for agents",
-      "track": "AI 工具/服务",
+      "id": "rss-https-github-com-pradipta-wallfacer",
+      "title": "Show HN: Wallfacer – A terminal session manager for Claude Code, and more",
+      "track": "内容/IP/知识产品",
       "platform": "Hacker News",
-      "source_url": "https://github.com/Aidress-ai/Aidress",
-      "summary": "Article URL: https://github.com/Aidress-ai/Aidress Comments URL: https://news.ycombinator.com/item?id=49178316 Points: 1 # Comments: 1",
+      "source_url": "https://github.com/pradipta/wallfacer",
+      "summary": "Article URL: https://github.com/pradipta/wallfacer Comments URL: https://news.ycombinator.com/item?id=49192219 Points: 2 # Comments: 1",
       "evidence": [
         "Hacker News 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -622,8 +656,8 @@
       "source_tier": "market",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:28+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:49+08:00",
       "scores": {
         "total": 5.87,
         "demand": 8,
@@ -636,12 +670,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-memcode-ai",
-      "title": "Show HN: Memcode launches a new terminal coding agent",
+      "id": "rss-https-github-com-lucaswiman-frontrun",
+      "title": "Show HN: Python Concurrency Testing with Frontrun",
       "track": "AI 工具/服务",
       "platform": "Hacker News",
-      "source_url": "https://www.memcode.ai/",
-      "summary": "Memcode is a new developer platform currently in public beta. It includes a coding agent, chat, reusable agents, DataHub, and a Lovable-style website generator.The coding agent is heavily inspired by Claude Code and works across all frontier models as well as",
+      "source_url": "https://github.com/lucaswiman/frontrun",
+      "summary": "Hi HN, I'm the author of Frontrun, a Python concurrency testing library I built over the past 6 months using Claude Code and Codex. It uses bytecode tracing and various forms of monkeypatching to schedule across threads, async and multiprocessing allowing you",
       "evidence": [
         "Hacker News 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -659,8 +693,8 @@
       "source_tier": "market",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:28+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:49+08:00",
       "scores": {
         "total": 5.87,
         "demand": 8,
@@ -673,12 +707,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-news-ycombinator-com-item-id-49177577",
-      "title": "Show HN: AI Version of My Resume",
+      "id": "rss-https-hn-without-ai-vercel-app",
+      "title": "Show HN: Hacker News with reduced priority for AI driven content",
       "track": "AI 工具/服务",
       "platform": "Hacker News",
-      "source_url": "https://news.ycombinator.com/item?id=49177577",
-      "summary": "I am experimenting with AI Profile of myself instead of sharing resume to the recruiters just to standout from the crowd. What does HN people think about this approach ? Comments URL: https://news.ycombinator.com/item?id=49177577 Points: 2 # Comments: 1",
+      "source_url": "https://hn-without-ai.vercel.app/",
+      "summary": "Article URL: https://hn-without-ai.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49191307 Points: 1 # Comments: 0",
       "evidence": [
         "Hacker News 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -696,8 +730,8 @@
       "source_tier": "market",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:28+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:49+08:00",
       "scores": {
         "total": 5.87,
         "demand": 8,
@@ -710,12 +744,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-routerfuel-com",
-      "title": "Show HN: AI gateway open source integrated with cursor and open router",
+      "id": "rss-https-www-clankcut-com",
+      "title": "Show HN: Clank Cut – Let your coding agent make video walkthroughs",
       "track": "AI 工具/服务",
       "platform": "Hacker News",
-      "source_url": "https://www.routerfuel.com/",
-      "summary": "Article URL: https://www.routerfuel.com/ Comments URL: https://news.ycombinator.com/item?id=49177455 Points: 2 # Comments: 0",
+      "source_url": "https://www.clankcut.com",
+      "summary": "Hi HN, I made a mac desktop app which your coding agent can connect to and use ur mac to do the recording instead, as well as edit the video, add background music, clone my voice, and publish it to a bucket so ur agent can just automatically make and rerecord",
       "evidence": [
         "Hacker News 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -733,8 +767,8 @@
       "source_tier": "market",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:28+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:49+08:00",
       "scores": {
         "total": 5.87,
         "demand": 8,
@@ -747,56 +781,19 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-reddit-com-r-termux-s-fqs76rc2z3",
-      "title": "Show HN: A terminal AI coding agent that compiles natively on Termux – no root",
-      "track": "AI 工具/服务",
-      "platform": "Hacker News",
-      "source_url": "https://www.reddit.com/r/termux/s/FqS76rc2z3",
-      "summary": "Article URL: https://www.reddit.com/r/termux/s/FqS76rc2z3 Comments URL: https://news.ycombinator.com/item?id=49177151 Points: 3 # Comments: 2",
-      "evidence": [
-        "Hacker News 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:28+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6440226-html",
-      "title": "拒绝焦虑，AI时代的AI产品经理自学指南",
+      "id": "rss-https-www-woshipm-com-ai-6441432-html",
+      "title": "一个专门做产品原型的 AI Agent",
       "track": "AI 工具/服务",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6440226.html",
-      "summary": "AI产品经理的焦虑，往往源于学习目标错位。本文提出“灰盒型”定位，构建六层知识地图与九阶段学习路线，帮助产品经理建立AI判断力，而非与开发竞争代码。从模型基础到Agent系统，明确每项知识的深度边界，让学习有章可循。 大语言模型、提示词、上下文、RAG、Agent、MCP、Skill、Memory、多智能体、混合专家模型…… 如果你是一名传统产品经理，最近很可能有一种感受：刚弄明白一个概念，又冒出来一个新概念；刚学会一种工具，行业热点已经转向了另一种工具。 随之而来的，是一连串焦虑：不学代码，会不会看不懂AI产品？",
+      "source_url": "https://www.woshipm.com/ai/6441432.html",
+      "summary": "一款由前字节跳动剪映产品负责人打造的AI设计智能体，专注于将想法快速转化为可交互的产品原型，并支持需求文档生成。通过对话即可驱动专业AI设计团队协作，产出可直接运行的交互原型，并支持导出至Figma、代码工程等多种格式，为产品经理和设计师提供高效专业的设计辅助。 前阵子，有个粉丝后台留言，说能不能推荐个产品原型 AI 工具。 今天把 OJO 分享给大家。 这是一个把想法变成可交互、可运行的产品原型的 AI Agent。 核心能力，就是通过对话、通过自然语言描述，生成产品原型。 1、产品原型生成 比如我输入提示词：",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
       ],
       "evidence_types": [
-        "demand",
-        "low_cost"
+        "low_cost",
+        "market"
       ],
       "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
       "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
@@ -805,13 +802,13 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
       "scores": {
-        "total": 5.82,
-        "demand": 9,
+        "total": 5.62,
+        "demand": 7,
         "paid": 7,
-        "low_cost": 7,
+        "low_cost": 8,
         "asset": 3,
         "crowding": 2,
         "risk": 0
@@ -819,12 +816,12 @@
       "verdict": "观察"
     },
     {
-      "id": "rss-https-www-woshipm-com-ai-6440540-html",
-      "title": "写给老互联网人的一封AI推荐信",
+      "id": "rss-https-www-woshipm-com-ai-6441221-html",
+      "title": "Context Graph：记忆的正确存储方式不是向量库，是图",
       "track": "AI 工具/服务",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6440540.html",
-      "summary": "AI浪潮下，老互联网人如何自处？本文作者以亲身经历，从抗拒到拥抱，提出“但用AI，莫问结局”的务实心态。通过四个具体步骤——消耗Token、改造工作流、团队协作升级、探索新价值网络，为同龄人提供了一份可落地的AI转型指南。 如果把这篇文章当成一封信，我更愿意说，它是一封写给老互联网人的AI推荐信。 写给快40岁的自己，也写给那些和我差不多、吃过一些互联网红利、也正在被AI时代重新教育的人。 这封信不是想讲大道理，也不是想制造焦虑。它只是想认真推荐一件事：如果你还没想清楚该怎么面对AI，那就先开始用它。 俗话说：&#",
+      "source_url": "https://www.woshipm.com/ai/6441221.html",
+      "summary": "Agent 的记忆架构常被简化为一个数据库图标，但真正决定其质量的是实体抽取的颗粒度、三层记忆的构建与治理能力。本文从实体抽取的分层流水线出发，详解短期、长期与推理记忆的协同设计，并给出企业 AI 问答的三大关键判断与落地建议，助你从存储思维转向治理思维。 你可能看过很多 Agent 架构图，Memory 那一层通常被画成一个数据库图标，旁边标注「向量存储」或「对话历史」。 这个画法最大的问题是：它让你以为记忆就是存东西。 实际上，真正决定 Agent 质量的不是「存了多少」，而是： 存进去的是什么颗粒度的东西（实",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
@@ -840,8 +837,8 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
       "scores": {
         "total": 5.6,
         "demand": 8,
@@ -854,18 +851,18 @@
       "verdict": "观察"
     },
     {
-      "id": "rss-https-sspai-com-post-113040",
-      "title": "派评 | 近期值得关注的 App",
-      "track": "内容/IP/知识产品",
-      "platform": "少数派",
-      "source_url": "https://sspai.com/post/113040",
-      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "id": "rss-https-www-woshipm-com-pd-6441229-html",
+      "title": "AI信息茧房：对话式AI的隐性风险与产品设计的伦理边界",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/pd/6441229.html",
+      "summary": "AI 越来越懂你，但你可能正在被它悄悄圈养。从搜索引擎到对话式 AI，信息茧房已从行为匹配升级为认知塑造。本文剖析 AI 信息茧房的形成机制与产品设计逻辑，并提出四大干预框架，帮助产品经理在“让用户满意”与“帮助用户成长”之间找到平衡。 你以为AI很懂你，但其实它只是挑你喜欢的立场跟你说你爱听的话而已。——它吃得越多，给你的世界越小；你们聊得越久，你离真实世界越远。用你最舒服的方式，把最“对你胃口”的结论递到你嘴边。 AI信息茧房 信息茧房概念提出于2006年。 在此后的近二十年中，这一概念经历了三个技术阶段的演变",
       "evidence": [
-        "少数派 出现相关公开信号",
+        "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
       ],
       "evidence_types": [
-        "market"
+        "demand"
       ],
       "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
       "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
@@ -874,12 +871,12 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:21+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:44+08:00",
       "scores": {
-        "total": 5.3,
+        "total": 5.37,
         "demand": 8,
-        "paid": 9,
+        "paid": 7,
         "low_cost": 6,
         "asset": 3,
         "crowding": 2,
@@ -908,8 +905,8 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:21+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:42+08:00",
       "scores": {
         "total": 5.27,
         "demand": 7,
@@ -922,48 +919,14 @@
       "verdict": "观察"
     },
     {
-      "id": "rss-https-www-woshipm-com-share-6428656-html",
-      "title": "产品思想“谈恋爱”：市场篇",
-      "track": "平台轻服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/share/6428656.html",
-      "summary": "婚恋市场正经历前所未有的变革，催婚压力与择偶标准的分化让单身男女陷入困境。本文从产品经理视角，剖析适龄男女的画像与需求，揭示市场背后的逻辑与未来趋势，为身处其中的你提供理性思考与实用建议。 行业格局 “婚恋市场”是真不行了啊！我八年前写的《产品思想“谈恋爱”》阅读量接近一万，想着搞话题蹭流量，上个月写的阅读量竟然只有500＋，个人文章垫底之作。本来想露脸，结果。。。 调子起太高了，也不知道写什么？可是气氛烘托到这了，还是要答谢读者，写完这个系列。结婚率、生育率什么的宏大叙事跟个人关系不大，这里我们不谈数据，只说说个",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
-      "scores": {
-        "total": 5.15,
-        "demand": 7,
-        "paid": 7,
-        "low_cost": 6,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "观察"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6440200-html",
-      "title": "换了台电脑，Reasonix 全废了——我花了两个晚上写了个工具，永久解决",
+      "id": "rss-https-sspai-com-post-113110",
+      "title": "派早报：华为发布尊界 MPV 及多款新品等",
       "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6440200.html",
-      "summary": "Reasonix 重度用户在三台电脑间切换时，发现 Skill、MCP、对话历史全部丢失，即使文件完整也无济于事。本文深入剖析了四个路径硬伤，并分享了如何开发 PortaKit 启动器，实现 Reasonix 的完全便携化，让数据随行，无缝切换。 作为一个 Reasonix 重度用户，我在三台电脑之间来回切换（公司、笔记本、家里）。每次换电脑，Skill、MCP、对话历史、项目记忆全部消失。最魔幻的是：把整个文件夹拷过去，打开依然是空白。本文记录了我如何定位根因，以及如何写出 PortaKit 这个便携化工具。 一",
+      "platform": "少数派",
+      "source_url": "https://sspai.com/post/113110",
+      "summary": "英伟达宣布 Alpamayo 2 Super AI 开放商用、NVM Express 发布十一项规范集更新等。查看全文",
       "evidence": [
-        "人人都是产品经理 出现相关公开信号",
+        "少数派 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
       ],
       "evidence_types": [
@@ -976,10 +939,10 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-08-05",
-      "updated_at": "2026-08-05T12:32:23+08:00",
+      "date": "2026-08-06",
+      "updated_at": "2026-08-06T12:32:42+08:00",
       "scores": {
-        "total": 5.15,
+        "total": 4.66,
         "demand": 7,
         "paid": 7,
         "low_cost": 6,
