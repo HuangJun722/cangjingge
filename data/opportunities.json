@@ -1,53 +1,15 @@
 {
-  "generated_at": "2026-10-31T15:04:59+08:00",
+  "generated_at": "2026-11-01T15:39:16+08:00",
   "positioning": "中文副业机会私人看板，优先寻找 3-7 天可低成本验证的小机会。",
   "review_mode": "ai_optional_heuristic_fallback",
   "opportunities": [
     {
-      "id": "rss-https-www-woshipm-com-share-6487206-html",
-      "title": "美年、爱康的体检套餐，为什么总劝你“加项”？内行人扒开背后的商业漏斗",
-      "track": "内容/IP/知识产品",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/share/6487206.html",
-      "summary": "从朋友三千多的体检账单说起，拆开美年、爱康的加项逻辑：几百块的基础套餐只是流量入口，真正赚钱的是高端套餐与增值项目。文章把成本结构、客单价变化和一份避坑清单一起摆了出来。 上周一朋友，去某连锁体检，本想做基础套餐，结果被推荐了额外加项，最后结账花了三千多，朋友出来直呼肉疼。 今天为朋友，扒扒美年、爱康，看看，体检机构‘加项’是怎么算账的 最后，给大家一份，实用体检“避坑指南”。 01 基础体检的底色 几百块，本质“标品流水线” 你去做几百块的入职体检，通常是： 像赶集一样排队，抽血、量血压、拍胸片。 从商业视角看，",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "demand",
-        "paid",
-        "low_cost",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
-      "scores": {
-        "total": 7.37,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 8,
-        "asset": 4,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6487009-html",
-      "title": "养大肥鱼只是开始，DeepSeek这10组插件值得装上",
+      "id": "rss-https-www-woshipm-com-ai-6487435-html",
+      "title": "ChatGPT和Codex要共用额度了，无限聊天的时代结束了。",
       "track": "AI 工具/服务",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6487009.html",
-      "summary": "抖音和 B站上都有人开始折腾大肥鱼，给本地 AI 助手装插件。这篇挑了十组仍在维护的项目：短剧创作工作台、无限画布、手机接 QQ 和微信、桌宠、B站视频筛选、网页操作与办公文件，每组都说清装好之后能干什么。 最近，抖音和B站都能看到不少网友折腾大肥鱼。 甚至有人给它安排了自己的账号，让它看视频、挑选话题，甚至参与评论区里的聊天。 这人不少人也跟着给电脑装了一个DeepSeek Harness，然后开始琢磨，这个本地AI助手还能帮自己做些什么。 DeepSeek Harness作为一套开放的Agent工具。用户可以在",
+      "source_url": "https://www.woshipm.com/ai/6487435.html",
+      "summary": "OpenAI 凌晨悄悄更新帮助文档：从 12 月起，Plus 和 Pro 用户的 ChatGPT 与 Codex 用量合并成同一个 Token 池。聊天再也不是近乎无限，重度用户的第一反应是天塌了。从自制硬件讲到 2023 年 GPT-4 上线的日子。 今天凌晨，本来在快快乐乐一边打《影之刃零》一边Vibe Coding我的小产品中。 然后AIHOT就给我弹了一条消息，点进去一看原文，瞬间感觉天塌了，我相信，任何一个ChatGPT重度用户，都会跟我有一样的感觉。 OpenAI凌晨偷偷更新的帮助文档，没有任何官方公告",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
@@ -57,7 +19,8 @@
       "evidence_types": [
         "paid",
         "low_cost",
-        "social"
+        "social",
+        "market"
       ],
       "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
       "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
@@ -66,8 +29,48 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
+      "scores": {
+        "total": 7.23,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 8,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-ai-6487433-html",
+      "title": "当 AI 开始替用户搜索和推荐，企业的获客逻辑会改变吗？",
+      "track": "内容/IP/知识产品",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/ai/6487433.html",
+      "summary": "当用户开始向AI询问“推荐几款CRM”或“有哪些AI客服方案”，企业的获客逻辑正被悄然改写。本文通过实验数据与搜索行为分析，揭示AI如何成为新的信息筛选者，并探讨企业应如何调整内容策略，以在AI生成的答案中占据一席之地。 过去，企业要让客户找到自己，通常需要做几件事。 在搜索引擎上争取更好的排名，在小红书和抖音上生产内容，在微信生态里建立私域，在电商平台争取搜索曝光和商品推荐。 无论渠道如何变化，底层逻辑大体一致： 企业争取曝光，用户接触信息，然后由用户自己完成筛选、比较和判断。 但现在，这个过程开始出现一个新的参",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "搜索词指向社媒/社区讨论，需要人工二次抽样确认",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
       "scores": {
         "total": 7.0,
         "demand": 10,
@@ -80,49 +83,12 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-woshipm-com-ai-6487208-html",
-      "title": "苹果选择千问，阿里AI拿到大结果",
+      "id": "rss-https-www-woshipm-com-share-6487380-html",
+      "title": "跟AI谈恋爱，年轻人图什么？",
       "track": "AI 工具/服务",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6487208.html",
-      "summary": "苹果把千问接进Siri、写作工具与视觉智能，随iOS 27.3推送。文章回看两年多的备案与谈判过程，梳理苹果为何最终选了阿里，以及这次合作对国产大模型竞争格局意味着什么。 今天早上起来，我打开苹果官网，本来想看看新发的 iPad mini。 当时还犯嘀咕，这么贵，Apple 智能没有，高刷也没有。结果往下一滑，看到苹果今天早晨刚发的消息。 苹果说，千问进了 Siri、写作工具和视觉智能，12 月随 iOS 27.3 正式推送。 我看到这条消息，想起了前阵子库克中国行，在上海受访时，他透露Apple智能将接入阿里千问",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "demand",
-        "paid",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
-      "scores": {
-        "total": 6.76,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 6,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-marketing-6487183-html",
-      "title": "大厂减市场预算，加AI预算",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/marketing/6487183.html",
-      "summary": "Alphabet、Meta、微软三家六年里收入涨了147%，推广费只涨42%，每百美元收入的营销投入从13美元掉到7.5美元。省下的钱去了算力、芯片、模型与人才，文章据此推演广告公司的处境。 有一种感觉，大厂开始缩减市场预算，同时拿出更多的钱投资AI。 2019年，Alphabet、Meta、微软三家加起来的收入是3584亿美元，销售与营销费用465.5亿美元。折算下来，每100美元收入里有13美元花在推广上。13%，这也符合一般的营销推广比例逻辑。 2025年，同样这三家公司，收入8855亿美元，推广费663.4",
+      "source_url": "https://www.woshipm.com/share/6487380.html",
+      "summary": "月卡十几元、记忆包几十元、一次充值上百元，AI 陪伴把情绪价值拆成了一个个付费点。五位年轻人讲了各自的故事：猪场里的树洞、学会与人相处的练习场、职场委屈的出口，也都清楚对面只是会失忆、会人设崩塌的一段程序。 月卡十几元，记忆包几十元，一次充值上百元，通用大模型会员一档几百元……在AI陪伴这条赛道上，情绪价值正被拆分成一个个具体的付费点。 这类产品自诞生起就伴随着争议，被指游走在风险边缘，诱导未成年人建立不良恋爱观、内容擦边。但争议之外，它也确实承接了一部分年轻人的倾诉需求，成为他们排解压力、整理情绪的出口。如今，行",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
@@ -132,6 +98,7 @@
       "evidence_types": [
         "demand",
         "paid",
+        "low_cost",
         "social",
         "market"
       ],
@@ -142,13 +109,13 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
       "scores": {
-        "total": 6.76,
+        "total": 7.0,
         "demand": 10,
         "paid": 10,
-        "low_cost": 6,
+        "low_cost": 7,
         "asset": 3,
         "crowding": 2,
         "risk": 0
@@ -156,12 +123,90 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-woshipm-com-share-6487185-html",
-      "title": "你的航班信息，是通过哪些渠道贩卖出去的？",
+      "id": "rss-https-www-woshipm-com-evaluating-6486885-html",
+      "title": "从 Agent 开发平台到 AI 团队工作台：扣子的三次转向与它的结构性约束",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/evaluating/6486885.html",
+      "summary": "扣子拿下2025年中国智能体开发平台公有云市场19.3%份额第一，靠的不是可视化搭建界面的易用性，而是分发网络加执行环境——把Agent送到用户面前并让它动手。本文对比Dify、阿里云百炼、腾讯云ADP，拆解扣子三年三跳的产品主线、并入豆包后的身份取舍，以及声量与收入严重不匹配的早期商业化现实。 分析对象：扣子（Coze） 对比竞品：Dify、阿里云百炼 Agent Studio、腾讯云 ADP 核心结论： 扣子的真实产品不是「可视化搭 Agent」，而是「把 Agent 送到用户面前并让它动手」。分发网络加执行环",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "搜索词指向社媒/社区讨论，需要人工二次抽样确认",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
+      "scores": {
+        "total": 7.0,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-evaluating-6487428-html",
+      "title": "实测灵光 2.0：对标 Muse 背后，中美 Personal Agent 的底层逻辑其实截然不同",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/evaluating/6487428.html",
+      "summary": "灵光 2.0 想把 AI 从一次性的任务执行者，变成持续跟进生活事务的个人助理：记住需求、盯住变化，在你离开对话之后继续干活。背靠支付宝，它在信息管理、内容生产和交易执行三条线上各走到了哪一步，又不得不把哪些事交还给你，四个维度逐一实测。 在大模型行业卷完参数、卷完长文本，又在 GUI Agent 的延迟与高错误率里撞得头破血流之后，Personal Agent 到底该怎么落地，成了 2026 年下半年所有大厂的必答题。 2026 年 10 月 27 日，蚂蚁发布灵光 2.0，成为国内大厂较早正式推出的 Perso",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "文本中出现付费、报价、成交或接单线索"
+      ],
+      "evidence_types": [
+        "demand",
+        "paid",
+        "low_cost",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
+      "scores": {
+        "total": 6.95,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 3,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-ai-6487447-html",
+      "title": "60亿播放的漫剧赚不到100万",
       "track": "内容/IP/知识产品",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/share/6487185.html",
-      "summary": "从法院判决书与反诈通报里，梳理出航班信息外泄的四条通道：黑客买票盲猜票号、航司内鬼与合作商、二道贩子层层加价、朋友圈晒票自曝。每条通道都配了真实判决与可落地的自查要点。 我翻阅了近些年，关于航班退改签诈骗案的法院判决书、检察院公诉书和反诈中心警方提醒，总结出航班信息，主要通过以下4个渠道贩卖出去。 从办案情况来看，渠道一是信息外泄的重要源头。 渠道一： 黑客黑进系统，批量偷着卖 这个最多，绝大多数大案的源头。 黑客获取数据，通常有2种惯用套路。 套路一：买票当样本，批量“盲猜” 先花钱买一张真实的机票，根据真实票号",
+      "source_url": "https://www.woshipm.com/ai/6487447.html",
+      "summary": "做 AI 漫剧，内容方得赌爆款，平台却不用押注某一部剧。字节手里握着两张牌：番茄开放六万余部原创 IP，红果日活 1.68 亿。把分账公式、广告成交价和监管节点一层层拆开，才算得清这门生意里究竟谁掌握着分钱的规则。 做AI漫剧，内容方得赌爆款，平台却不用押注某一部剧。 一部剧扑了，内容方可能连成本都收不回来，从买IP到制作完成，钱是一笔一笔垫进去的，播出来没人看，这些钱就沉在片库里。 平台不一样，只要用户还在，换一部剧接着播，广告位照样能卖。 所以，这门生意最值得算的是谁掌握着分钱的规则。 &#8230;&#823",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
@@ -169,8 +214,45 @@
         "文本中出现付费、报价、成交或接单线索"
       ],
       "evidence_types": [
+        "demand",
         "paid",
         "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
+      "scores": {
+        "total": 6.76,
+        "demand": 10,
+        "paid": 10,
+        "low_cost": 6,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-share-6486493-html",
+      "title": "为什么打招呼的消息越来越多，工作反而越难找？",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/share/6486493.html",
+      "summary": "某聘上的打招呼消息越来越多，一天能收到几十条，但仔细看，岗位与经历并不匹配，招呼内容高度模板化。作者怀疑这些招呼正被AI批量发送，并追问：当简历筛选和初次沟通都被自动化，招聘中原本的信号价值还剩多少？ 不知道你有没有发现，某聘上企业打招呼的消息越来越多，我看小某书上有人分享，一天能收到几十条打招呼的信息。 但仔细看，有些岗位和自己的经历并不匹配，有些招呼内容高度模板化，让人感觉对方根本没有认真看过简历。 因此我有理由怀疑，其中一部分招呼可能已经开始借助 AI 或自动化工具批量发送，这个现象引发了我对企业应用 AI",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "demand",
+        "low_cost",
         "market"
       ],
       "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
@@ -180,68 +262,29 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
       "scores": {
-        "total": 6.76,
+        "total": 6.72,
         "demand": 10,
-        "paid": 10,
-        "low_cost": 6,
-        "asset": 3,
+        "paid": 7,
+        "low_cost": 8,
+        "asset": 4,
         "crowding": 2,
         "risk": 0
       },
       "verdict": "观察"
     },
     {
-      "id": "rss-https-www-woshipm-com-share-6486993-html",
-      "title": "没有流量红利了，欢迎进入拼刺刀时代",
-      "track": "内容/IP/知识产品",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/share/6486993.html",
-      "summary": "小红书几乎没有流量红利了，接下来拼的是对内容和投放的理解。多数商家的问题不在预算，而在目标不明确：种草、人群、转化什么都想要，投几十篇没起量就下结论。优质内容仍能用低成本撬动流量，前提是先想清楚为谁解决什么问题。 小红书几乎没有流量红利了 接下来要比的是对内容的理解，对投放的理解，依靠正确认知和精细化经营，依然能通过好策略撬动生意增长 但是我认为99%的商家都做不出好的策略，要么就是发心是错的，指望低预算直接投出大结果；要么就是什么都想要，种草也要，人群也要，转化也要，目标极其不明确；要么就是对投放没有耐受度，几十",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "搜索词指向社媒/社区讨论，需要人工二次抽样确认",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "demand",
-        "paid",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
-      "scores": {
-        "total": 6.76,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 6,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
       "id": "search-query-site-xiaohongshu-com-ai",
       "title": "小红书资料包信号：AI 副业模板与学习路径",
       "track": "内容/IP/知识产品",
       "platform": "小红书/搜索",
-      "source_url": "https://www.bing.com/ck/a?!&&p=480abe6bac79fb2b719d60ac2c6f0f1977fbe87c382bb746c95f0ef8762438f2JmltdHM9MTc5MzQwNDgwMA&ptn=3&ver=2&hsh=4&fclid=1412d224-387f-6fcc-1d63-ca2739056ed3&u=a1aHR0cHM6Ly9vcGVuYWkuY29tLw&ntb=1",
+      "source_url": "https://www.bing.com/ck/a?!&&p=0453a9544552221e78882f2fe8fe09ecc7eea0500b48434642c708d5d8b38dc6JmltdHM9MTc5MzQ5MTIwMA&ptn=3&ver=2&hsh=4&fclid=1f62d4f6-4f06-6b2f-3883-ccf24e5a6a93&u=a1aHR0cHM6Ly9vcGVuYWkuY29tLw&ntb=1",
       "summary": "围绕“site:xiaohongshu.com AI 副业 模板 接单 资料包”的公开搜索结果已出现，可作为需求抽样入口。",
       "evidence": [
         "公开搜索返回相关结果，说明该方向有可抽样讨论或供给",
-        "搜索样本：OpenAI | Research & Deployment；‎Google Gemini；DeepAI",
+        "搜索样本：OpenAI | Research & Deployment；‎Google Gemini；What is artificial intelligence ( AI )? - IBM",
         "该层只作为弱信号，需要人工抽样验证评论、报价或服务帖"
       ],
       "evidence_types": [
@@ -256,8 +299,8 @@
       "source_tier": "social",
       "source_type": "search",
       "review_note": "规则复核：搜索层只作为需求假设，需人工补报价/成交证据后再升为可试。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:58+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:14+08:00",
       "scores": {
         "total": 6.68,
         "demand": 10,
@@ -274,11 +317,11 @@
       "title": "知乎需求抽样：自动化脚本与轻代运营服务",
       "track": "自动化/代运营",
       "platform": "知乎/搜索",
-      "source_url": "https://www.bing.com/ck/a?!&&p=25feefddd0a51a94c60c8ef39657f46dfd567f133252bd558220870661e8e0bfJmltdHM9MTc5MzQwNDgwMA&ptn=3&ver=2&hsh=4&fclid=2ca7699f-2067-6295-1847-719c21b663ce&u=a1aHR0cHM6Ly9ob21lLnpvb20udXMv&ntb=1",
+      "source_url": "https://www.bing.com/ck/a?!&&p=3ad7f08eccf9801ddc80856a2e85c69e98597d8d757dfc053f70c782eabc873bJmltdHM9MTc5MzQ5MTIwMA&ptn=3&ver=2&hsh=4&fclid=3c08ec6e-69a4-655c-384b-f46a688564ae&u=a1aHR0cHM6Ly90ZWNoY29tbXVuaXR5Lm1pY3Jvc29mdC5jb20vYmxvZy9za2lsbHMtaHViLWJsb2cvbmV3LW1pY3Jvc29mdC1jZXJ0aWZpZWQtYXp1cmUtYWktYXBwcy1hbmQtYWdlbnRzLWRldmVsb3Blci1hc3NvY2lhdGUvNDQ5NDEyNg&ntb=1",
       "summary": "围绕“site:zhihu.com 自动化 脚本 代运营 怎么做 收费”的公开搜索结果已出现，可作为需求抽样入口。",
       "evidence": [
         "公开搜索返回相关结果，说明该方向有可抽样讨论或供给",
-        "搜索样本：Zoom；One platform to connect | Zoom；Official Zoom Support | Help Center",
+        "搜索样本：New Microsoft Certified: Azure AI Apps and Agents Developer …；What’s new in Microsoft Intune – August；What is SharePoint? | Microsoft Support",
         "该层只作为弱信号，需要人工抽样验证评论、报价或服务帖"
       ],
       "evidence_types": [
@@ -293,8 +336,8 @@
       "source_tier": "social",
       "source_type": "search",
       "review_note": "规则复核：搜索层只作为需求假设，需人工补报价/成交证据后再升为可试。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:59+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:16+08:00",
       "scores": {
         "total": 6.68,
         "demand": 10,
@@ -332,7 +375,7 @@
       "source_type": "manual",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
       "date": "2026-05-21",
-      "updated_at": "2026-10-31T15:04:49+08:00",
+      "updated_at": "2026-11-01T15:39:02+08:00",
       "scores": {
         "total": 6.59,
         "demand": 8,
@@ -349,7 +392,7 @@
       "title": "闲鱼轻服务信号：AI 简历、PPT 与文案代做",
       "track": "平台轻服务",
       "platform": "闲鱼/搜索",
-      "source_url": "https://www.bing.com/ck/a?!&&p=c0b870b55534f96d19e546d626e46df6c79f3a52a5f4b0b4b53a4297abd99efcJmltdHM9MTc5MzQwNDgwMA&ptn=3&ver=2&hsh=4&fclid=22f0f064-7dc3-62a6-3ce2-e8677c576329&u=a1aHR0cHM6Ly93d3cuZ29vZmlzaC5jb20v&ntb=1",
+      "source_url": "https://www.bing.com/ck/a?!&&p=90b35e7912bbd69dd8115f532bc07264b5292c62d0d96c12dbc34eb61e982b68JmltdHM9MTc5MzQ5MTIwMA&ptn=3&ver=2&hsh=4&fclid=2dc3f5b6-db16-6bdb-2e2b-edb2dadd6a7d&u=a1aHR0cHM6Ly93d3cuZ29vZmlzaC5jb20v&ntb=1",
       "summary": "围绕“闲鱼 AI 简历 PPT 代做 接单 报价”的公开搜索结果已出现，可作为需求抽样入口。",
       "evidence": [
         "公开搜索返回相关结果，说明该方向有可抽样讨论或供给",
@@ -368,8 +411,8 @@
       "source_tier": "social",
       "source_type": "search",
       "review_note": "规则复核：搜索层只作为需求假设，需人工补报价/成交证据后再升为可试。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:59+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:15+08:00",
       "scores": {
         "total": 6.57,
         "demand": 10,
@@ -382,51 +425,15 @@
       "verdict": "观察"
     },
     {
-      "id": "rss-https-www-woshipm-com-ai-6487062-html",
-      "title": "Codex 额度翻倍了！一图看懂各档变化。",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6487062.html",
-      "summary": "十月三十日凌晨，Tibo 在 X 上宣布 Pro 100、Pro 200、Pro 500 与 Business Premium 的额度调整，即刻生效。同样叫翻倍，实际多拿多少要看原有基数，Pro 200 最绕，二十美元的 Plus 这轮没有变化。 北京时间 10 月 30 日凌晨，OpenAI 的 Tibo 在 X 宣布，Pro 100、Pro 200、Pro 500 和 Business Premium 调整使用额度，即刻生效。 大家都知道，我一直是 Codex 的忠实用户。基本上，在做任何一件事之前，我都会先用",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
-        "文本中出现付费、报价、成交或接单线索"
-      ],
-      "evidence_types": [
-        "demand",
-        "paid"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
-      "scores": {
-        "total": 6.45,
-        "demand": 10,
-        "paid": 10,
-        "low_cost": 6,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
       "id": "search-query-site-zhihu-com-ai",
       "title": "知乎需求抽样：AI 副业入门、接单与付费验证",
       "track": "AI 工具/服务",
       "platform": "知乎/搜索",
-      "source_url": "https://www.bing.com/ck/a?!&&p=deada9ee85b003efcb5cbdf4f92960a60b2e1138cd8e263e4f55467f736fa80bJmltdHM9MTc5MzQwNDgwMA&ptn=3&ver=2&hsh=4&fclid=1ede9f72-645a-621b-1fe5-8771657c63dc&u=a1aHR0cHM6Ly9vcGVuYWkuY29tLw&ntb=1",
+      "source_url": "https://www.bing.com/ck/a?!&&p=a2f13752090e42a60ac2d51ddcc20d785ab48e96c94e1611d60250e4f749bdd2JmltdHM9MTc5MzQ5MTIwMA&ptn=3&ver=2&hsh=4&fclid=01f141a0-1375-68e1-04e2-59a412be6944&u=a1aHR0cHM6Ly9vcGVuYWkuY29tLw&ntb=1",
       "summary": "围绕“site:zhihu.com AI 副业 怎么做 付费 接单”的公开搜索结果已出现，可作为需求抽样入口。",
       "evidence": [
         "公开搜索返回相关结果，说明该方向有可抽样讨论或供给",
-        "搜索样本：OpenAI | Research & Deployment；‎Google Gemini；DeepAI",
+        "搜索样本：OpenAI | Research & Deployment；‎Google Gemini；What is artificial intelligence ( AI )? - IBM",
         "该层只作为弱信号，需要人工抽样验证评论、报价或服务帖"
       ],
       "evidence_types": [
@@ -441,8 +448,8 @@
       "source_tier": "social",
       "source_type": "search",
       "review_note": "规则复核：搜索层只作为需求假设，需人工补报价/成交证据后再升为可试。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:50+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:02+08:00",
       "scores": {
         "total": 6.39,
         "demand": 10,
@@ -480,7 +487,7 @@
       "source_type": "manual",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
       "date": "2026-05-21",
-      "updated_at": "2026-10-31T15:04:49+08:00",
+      "updated_at": "2026-11-01T15:39:02+08:00",
       "scores": {
         "total": 6.28,
         "demand": 8,
@@ -514,8 +521,8 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:52+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:06+08:00",
       "scores": {
         "total": 6.23,
         "demand": 9,
@@ -528,12 +535,12 @@
       "verdict": "观察"
     },
     {
-      "id": "rss-https-www-woshipm-com-ai-6487193-html",
-      "title": "OpenAI 低成本新模型 GPT-6.1 Terra 深夜炸场：每项任务成本仅 Claude Opus 5.5 九分之一，更快更准确",
-      "track": "AI 工具/服务",
+      "id": "rss-https-www-woshipm-com-share-6487456-html",
+      "title": "叮咚盈利、朴朴降本：烧了十年的“前置仓”，终于开始赚钱了？",
+      "track": "内容/IP/知识产品",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6487193.html",
-      "summary": "定位不是替代旗舰，而是承接高频Agent任务。GPT-6.1 Terra主打视觉理解、桌面操作与工具调用，速度约为前代三倍，单任务成本压到旗舰的九分之一。文章算了成本账，也点出权限与审计的隐患。 GPT-6.1 Terra 的产品定位很清楚：不是替代所有旗舰模型，而是用更低成本处理大量需要视觉理解、桌面操作和工具调用的工作。OpenAI 表示，它的任务执行速度超过 GPT-6 Astra 和 GPT-6.1 Sol 的 3 倍，最高推理强度下单任务成本约为 Claude Opus 5.5 的九分之一。 这类模型真正",
+      "source_url": "https://www.woshipm.com/share/6487456.html",
+      "summary": "烧了十年的前置仓，第一次集体交出盈利答卷：叮咚连续七个季度转正，朴朴靠降本收缩，美团和盒马又杀回福建。这篇拆的是成本账——时间、路由、仓内 SKU，钱到底从哪儿省出来。 最近三个信号，同时冒了出来: 1️⃣ 阿里财报：即时零售收入增长45%，减亏快于预期。 2️⃣ 叮咚买菜：连续7个季度GAAP盈利。 3️⃣ 盒马和美团：杀回福建，强攻朴朴大本营。 前置仓赛道不再“百花齐放”了，美团系（小象+叮咚）阿里系（盒马）外加（朴朴），前三阵营的市占率已经逼近80%。 今天咱们扒扒 “前置仓” 在牌桌上三大寡头，不再厮杀补贴",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
@@ -550,15 +557,15 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
       "scores": {
-        "total": 6.23,
+        "total": 6.19,
         "demand": 9,
         "paid": 10,
         "low_cost": 6,
         "asset": 3,
-        "crowding": 2,
+        "crowding": 3,
         "risk": 0
       },
       "verdict": "观察"
@@ -587,8 +594,8 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:52+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:06+08:00",
       "scores": {
         "total": 6.13,
         "demand": 8,
@@ -601,18 +608,18 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-woshipm-com-marketing-6487081-html",
-      "title": "下一个商业浪潮：用户买的不是体验，是“自我转型”",
-      "track": "AI 工具/服务",
+      "id": "rss-https-www-woshipm-com-share-6487376-html",
+      "title": "Just Do It的丹·韦登：24条穿透“混沌”的广告法则",
+      "track": "内容/IP/知识产品",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/marketing/6487081.html",
-      "summary": "商品、货品、服务、体验都只是手段，客户真正想要的终点是自我转型。派恩在《体验经济》的价值演进模型里把它列为第五层，也是新书《转型经济》的核心：更低层级的供给不断商品化，转型于是走到舞台中央。 企业若能够帮助客户实现内心真正的追求，就能释放巨大商业价值！ ——《变革经济》 你今天卖的所有东西，都不是客户真正想要的。说到底，商品、货品、服务、甚至体验，只是达成目标的手段——客户真正渴求的终点是“自我转型”。 所谓“自我转型”，就是变得更健康、更富足、更睿智；让生活有意义，让事业有使命；作为个体蓬勃生长，作为企业持续壮大",
+      "source_url": "https://www.woshipm.com/share/6487376.html",
+      "summary": "丹·韦登把混沌定为 W+K 的组织内核，也留下二十四条广告法则。文章把它们拢成三组：好广告是一场值得旁听的对话，Just Do It 的力量来自邀请而非指令，以及为什么一家井井有条的创意公司已经停止生长。 丹・韦登（Dan Wieden，1945—2021），W+K联合创始人，广告史上最具影响力的创意领袖之一。，耐克是W+K第一个客户，并在1988年，他写下“Just Do It”，并让耐克从跑鞋品牌，成为全球顶级的文化符号。 他把 “混沌”定为组织文化的内核。他相信，好广告是一场两个人对话；slogan不只是文字",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
       ],
       "evidence_types": [
-        "low_cost",
+        "demand",
         "market"
       ],
       "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
@@ -622,13 +629,13 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
       "scores": {
-        "total": 6.03,
-        "demand": 8,
+        "total": 6.01,
+        "demand": 9,
         "paid": 9,
-        "low_cost": 7,
+        "low_cost": 6,
         "asset": 3,
         "crowding": 2,
         "risk": 0
@@ -658,7 +665,7 @@
       "source_type": "manual",
       "review_note": "规则复核：证据链基本成立，可进入看板。",
       "date": "2026-05-21",
-      "updated_at": "2026-10-31T15:04:49+08:00",
+      "updated_at": "2026-11-01T15:39:02+08:00",
       "scores": {
         "total": 5.94,
         "demand": 6,
@@ -671,425 +678,19 @@
       "verdict": "可试"
     },
     {
-      "id": "rss-https-www-producthunt-com-products-basetab-ai",
-      "title": "BaseTab AI",
+      "id": "rss-https-www-woshipm-com-ai-6487382-html",
+      "title": "从2D小游戏到3D赛车，EvoMeme把游戏创作搬进了AI工厂",
       "track": "AI 工具/服务",
-      "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/basetab-ai",
-      "summary": "Turn your new tab into an AI-powered workspace Discussion | Link",
-      "evidence": [
-        "Product Hunt 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-producthunt-com-products-agnos",
-      "title": "Agnos",
-      "track": "AI 工具/服务",
-      "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/agnos",
-      "summary": "Clean documents for AI, and see what was removed Discussion | Link",
-      "evidence": [
-        "Product Hunt 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-producthunt-com-products-github-copilot-fusion",
-      "title": "GitHub Copilot Fusion",
-      "track": "AI 工具/服务",
-      "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/github-copilot-fusion",
-      "summary": "GitHub's AI coding agent that picks and combines models Discussion | Link",
-      "evidence": [
-        "Product Hunt 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-producthunt-com-products-pluto-door",
-      "title": "Pluto Door",
-      "track": "AI 工具/服务",
-      "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/pluto-door",
-      "summary": "SSH client with an AI agent and a desktop for every server Discussion | Link",
-      "evidence": [
-        "Product Hunt 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-producthunt-com-products-telemetry-dev",
-      "title": "telemetry.dev",
-      "track": "AI 工具/服务",
-      "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/telemetry-dev",
-      "summary": "LLM observability for AI agents Discussion | Link",
-      "evidence": [
-        "Product Hunt 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-producthunt-com-products-winneradspy",
-      "title": "WinnerAdSpy",
-      "track": "AI 工具/服务",
-      "platform": "Product Hunt",
-      "source_url": "https://www.producthunt.com/products/winneradspy",
-      "summary": "Turn competitor ad insights into winning app campaigns Discussion | Link",
-      "evidence": [
-        "Product Hunt 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-github-com-tapaskar-archwhere",
-      "title": "Show HN: Archwhere – work alongside AI coding agents on an architecture map",
-      "track": "AI 工具/服务",
-      "platform": "Hacker News",
-      "source_url": "https://github.com/tapaskar/archwhere",
-      "summary": "I am a solo founder/developer, my agents shipping 30 PRs a week, couldn’t see which part of product they were changing; existing arch tools die because humans won’t maintain the model — so I made the agents maintain it. MIT license Comments URL: https://news.y",
-      "evidence": [
-        "Hacker News 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-github-com-ascension-association-ramekin",
-      "title": "Show HN: Ramekin – IoT development, deployment and update platform via Apptainer",
-      "track": "AI 工具/服务",
-      "platform": "Hacker News",
-      "source_url": "https://github.com/ascension-association/ramekin",
-      "summary": "Article URL: https://github.com/ascension-association/ramekin Comments URL: https://news.ycombinator.com/item?id=50313481 Points: 1 # Comments: 0",
-      "evidence": [
-        "Hacker News 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-apps-apple-com-us-app-neonetworking-id6818046802",
-      "title": "Show HN:AI gave me the skills. It didn't give me people",
-      "track": "AI 工具/服务",
-      "platform": "Hacker News",
-      "source_url": "https://apps.apple.com/us/app/neonetworking/id6818046802",
-      "summary": "Article URL: https://apps.apple.com/us/app/neonetworking/id6818046802 Comments URL: https://news.ycombinator.com/item?id=50313446 Points: 2 # Comments: 0",
-      "evidence": [
-        "Hacker News 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-github-com-tulipfarm-huntsman",
-      "title": "Show HN: Huntsman – Self-hosted web scraper that turns pages into Markdown",
-      "track": "内容/IP/知识产品",
-      "platform": "Hacker News",
-      "source_url": "https://github.com/TulipFarm/huntsman",
-      "summary": "Article URL: https://github.com/TulipFarm/huntsman Comments URL: https://news.ycombinator.com/item?id=50313221 Points: 1 # Comments: 0",
-      "evidence": [
-        "Hacker News 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-ghost-in-the-log-vercel-app",
-      "title": "Show HN: Ghost in the Log – a Halloween log investigation with a live AI",
-      "track": "AI 工具/服务",
-      "platform": "Hacker News",
-      "source_url": "https://ghost-in-the-log.vercel.app/",
-      "summary": "Article URL: https://ghost-in-the-log.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=50312389 Points: 1 # Comments: 0",
-      "evidence": [
-        "Hacker News 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "paid",
-        "low_cost",
-        "social",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "market",
-      "source_type": "rss",
-      "review_note": "规则复核：证据链基本成立，可进入看板。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:57+08:00",
-      "scores": {
-        "total": 5.87,
-        "demand": 8,
-        "paid": 8,
-        "low_cost": 7,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "可试"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-share-6487204-html",
-      "title": "你缺爱，骗子缺业绩：揭秘杀猪盘的“心理定制术”",
-      "track": "平台轻服务",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/share/6487204.html",
-      "summary": "高学历、精明的管理者照样中招，因为骗子早就不广撒网了。文章拆解那套心理定制剧本：先测评你的弱点再挑人设，换个平台避开反诈提醒，最后一步步把人推入转账环节，并给出识别信号。 很多人觉得，被杀猪盘骗的人，都是因为恋爱脑、太贪。 为什么高学历的、精明的高管，也会中招。 因为现在的骗子， 早就不是靠“广撒网”碰运气了。 他们有一本 《心理学定制剧本》，无论你是什么性格，都为你“量身定制”一个完美人设。 第一步：你是谁，决定骗子是谁 骗子加你微信后的前三天， 绝对不会提钱，甚至不会过度暧昧。 他们唯一的任务是：测评你的心理弱",
+      "source_url": "https://www.woshipm.com/ai/6487382.html",
+      "summary": "EvoMeme 是盛趣游戏做的 AI 游戏创作平台，作者用它做了两款游戏：网页端生成的解压毛线小游戏，和配合 Codex 插件做的反重力赛车。文章记下快速与专业两种模式的差别、虚拟工作室的分工，也点明物理效果与手感仍要自己打磨。 AI游戏创作迎来新玩家。 一张堆满文件夹、咖啡杯和键盘的办公桌，几团彩色毛线缠在一起。 玩家要先找出没有被压住的线头，再按颜色收进线轴。抽对一根，屏幕就给出一次轻快的反馈。 这款叫做下班解压毛线的小游戏，是小编用 EvoMeme 做出来的。 EvoMeme 背后是世纪华通旗下的盛趣游戏。说",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
       ],
       "evidence_types": [
         "demand",
+        "low_cost",
         "market"
       ],
       "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
@@ -1099,18 +700,314 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
       "scores": {
-        "total": 5.77,
-        "demand": 9,
+        "total": 5.92,
+        "demand": 8,
         "paid": 7,
         "low_cost": 7,
         "asset": 3,
-        "crowding": 3,
+        "crowding": 2,
         "risk": 0
       },
       "verdict": "观察"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-evaluating-6486495-html",
+      "title": "不想发朋友圈，也懒得写日记？这个 App 专门收留生活里的小事",
+      "track": "AI 工具/服务",
+      "platform": "人人都是产品经理",
+      "source_url": "https://www.woshipm.com/evaluating/6486495.html",
+      "summary": "一个名为 footnotes 的日记 App 在2025年9月上线，安卓版20天获3万次安装，Google Play评分4.7。它没有朋友圈、没有信息流，只让用户保存照片、文字、声音等生活碎片，像文章脚注一样收藏容易被忽略的瞬间。 今天分享一个很小的 App，但很有趣：footnotes。 最近，有人在苹果应用商店里给一款日记 App 留下了一条很有意思的评价。 她说，自己正在尝试暂时不刷 Instagram，于是下载了这款 App，替代每天忍不住拿起手机刷社交媒体的习惯。 以前拿起手机，是为了看看别人的生活；现在",
+      "evidence": [
+        "人人都是产品经理 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词",
+        "搜索词指向社媒/社区讨论，需要人工二次抽样确认"
+      ],
+      "evidence_types": [
+        "demand",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "vertical",
+      "source_type": "rss",
+      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
+      "scores": {
+        "total": 5.9,
+        "demand": 9,
+        "paid": 7,
+        "low_cost": 6,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "观察"
+    },
+    {
+      "id": "rss-https-www-producthunt-com-products-usage-for-claude",
+      "title": "Usage for Claude + ChatGPT 4.0",
+      "track": "内容/IP/知识产品",
+      "platform": "Product Hunt",
+      "source_url": "https://www.producthunt.com/products/usage-for-claude",
+      "summary": "Claude + ChatGPT limits on your Mac, iPhone, iPad and Watch Discussion | Link",
+      "evidence": [
+        "Product Hunt 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "market",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:11+08:00",
+      "scores": {
+        "total": 5.87,
+        "demand": 8,
+        "paid": 8,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-producthunt-com-products-modelpeers",
+      "title": "Modelpeers",
+      "track": "AI 工具/服务",
+      "platform": "Product Hunt",
+      "source_url": "https://www.producthunt.com/products/modelpeers",
+      "summary": "Follow AI models and agents like you follow people Discussion | Link",
+      "evidence": [
+        "Product Hunt 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "market",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:11+08:00",
+      "scores": {
+        "total": 5.87,
+        "demand": 8,
+        "paid": 8,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-producthunt-com-products-cutcat",
+      "title": "CutCat",
+      "track": "内容/IP/知识产品",
+      "platform": "Product Hunt",
+      "source_url": "https://www.producthunt.com/products/cutcat",
+      "summary": "Skip or mute marked scenes while you watch Netflix Discussion | Link",
+      "evidence": [
+        "Product Hunt 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "从新产品里拆一个更窄的中文服务包，做 1 个落地页或服务帖验证咨询",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "market",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:11+08:00",
+      "scores": {
+        "total": 5.87,
+        "demand": 8,
+        "paid": 8,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-www-anchorgit-com",
+      "title": "Show HN: AnchorGit – Hardware-signed Git decision ledger for AI code",
+      "track": "AI 工具/服务",
+      "platform": "Hacker News",
+      "source_url": "https://www.anchorgit.com",
+      "summary": "Article URL: https://www.anchorgit.com Comments URL: https://news.ycombinator.com/item?id=50323310 Points: 1 # Comments: 0",
+      "evidence": [
+        "Hacker News 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "market",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:14+08:00",
+      "scores": {
+        "total": 5.87,
+        "demand": 8,
+        "paid": 8,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-github-com-stackvitals-stackvitals",
+      "title": "Show HN: StackVitals – CI failure triage and DORA metrics, no server",
+      "track": "AI 工具/服务",
+      "platform": "Hacker News",
+      "source_url": "https://github.com/stackvitals/stackvitals",
+      "summary": "Article URL: https://github.com/stackvitals/stackvitals Comments URL: https://news.ycombinator.com/item?id=50323078 Points: 2 # Comments: 0",
+      "evidence": [
+        "Hacker News 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "market",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:14+08:00",
+      "scores": {
+        "total": 5.87,
+        "demand": 8,
+        "paid": 8,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-mcp-brydge-ai-com",
+      "title": "Show HN: What [67] MCP servers do at startup, with the internet cut off",
+      "track": "AI 工具/服务",
+      "platform": "Hacker News",
+      "source_url": "https://mcp.brydge-ai.com",
+      "summary": "Article URL: https://mcp.brydge-ai.com Comments URL: https://news.ycombinator.com/item?id=50322794 Points: 2 # Comments: 0",
+      "evidence": [
+        "Hacker News 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "market",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:14+08:00",
+      "scores": {
+        "total": 5.87,
+        "demand": 8,
+        "paid": 8,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
+    },
+    {
+      "id": "rss-https-figandverse-com",
+      "title": "Show HN: Show HN: Fig and Verse – daily Bible puzzles and trivia",
+      "track": "AI 工具/服务",
+      "platform": "Hacker News",
+      "source_url": "https://figandverse.com/",
+      "summary": "Article URL: https://figandverse.com/ Comments URL: https://news.ycombinator.com/item?id=50322277 Points: 3 # Comments: 0",
+      "evidence": [
+        "Hacker News 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "paid",
+        "low_cost",
+        "social",
+        "market"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "market",
+      "source_type": "rss",
+      "review_note": "规则复核：证据链基本成立，可进入看板。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:14+08:00",
+      "scores": {
+        "total": 5.87,
+        "demand": 8,
+        "paid": 8,
+        "low_cost": 7,
+        "asset": 3,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "可试"
     },
     {
       "id": "rss-https-sspai-com-post-116047",
@@ -1133,48 +1030,13 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:52+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:06+08:00",
       "scores": {
         "total": 5.58,
         "demand": 9,
         "paid": 7,
         "low_cost": 6,
-        "asset": 3,
-        "crowding": 2,
-        "risk": 0
-      },
-      "verdict": "观察"
-    },
-    {
-      "id": "rss-https-www-woshipm-com-ai-6487189-html",
-      "title": "WorkBuddy本地部署超强OCR识别小模型",
-      "track": "AI 工具/服务",
-      "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/ai/6487189.html",
-      "summary": "建筑图纸里的文字表格总提取不准，问题常常不在提示词，而在模型选型。这篇区分OCR专用模型与多模态模型的边界，用一段提示词把MiniCPM-OCR部署到本地，再拿25页施工图纸实测识别效果。 今天来填个坑的，之前老马写过一篇建筑行业怎么使用WorkBuddy来进行AI办公提升效率的文章。有位从业老哥留言，说我的法子行不通，瞬间就有点丈二和尚摸不着头脑。 他说自己做了几个Skill，发现WorkBuddy对于建筑施工方案，估计应该是图纸类的，提取信息的效果很差，而且存在不准确的情况。 假设建筑施工方案图纸是PDF格式的",
-      "evidence": [
-        "人人都是产品经理 出现相关公开信号",
-        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
-      ],
-      "evidence_types": [
-        "low_cost",
-        "market"
-      ],
-      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
-      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
-      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
-      "asset": "关键词清单、案例库、验证记录、交付模板",
-      "source_tier": "vertical",
-      "source_type": "rss",
-      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
-      "scores": {
-        "total": 5.38,
-        "demand": 7,
-        "paid": 7,
-        "low_cost": 7,
         "asset": 3,
         "crowding": 2,
         "risk": 0
@@ -1203,8 +1065,8 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:52+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:06+08:00",
       "scores": {
         "total": 5.37,
         "demand": 8,
@@ -1217,18 +1079,51 @@
       "verdict": "观察"
     },
     {
-      "id": "rss-https-www-woshipm-com-share-6487200-html",
-      "title": "字节 Seed 核心负责人周畅离职创业，方向为 Physical AI，获头部美元基金投资",
+      "id": "rss-https-marketplace-visualstudio-com-items-itemname-kulkarniniraj-yajlsp",
+      "title": "Show HN: Janet LSP with VS Code Extension",
+      "track": "内容/IP/知识产品",
+      "platform": "Hacker News",
+      "source_url": "https://marketplace.visualstudio.com/items?itemName=kulkarniniraj.yajlsp",
+      "summary": "Most of the code generated using Codex, with task specific prompts.To try out on Linux: install Janet, install spork package then install extensionFeatures: - Symbol lookup, with native modules - Format on save - go to symbol and references - Prefix based auto",
+      "evidence": [
+        "Hacker News 出现相关公开信号",
+        "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
+      ],
+      "evidence_types": [
+        "low_cost"
+      ],
+      "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
+      "risk_note": "自动采集线索只代表早期信号，需防止把资讯热度误判为可做机会",
+      "first_test": "用关键词在小红书/闲鱼/知乎做二次验证，找 3 个真实需求或报价样本",
+      "asset": "关键词清单、案例库、验证记录、交付模板",
+      "source_tier": "market",
+      "source_type": "rss",
+      "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:14+08:00",
+      "scores": {
+        "total": 5.34,
+        "demand": 7,
+        "paid": 7,
+        "low_cost": 7,
+        "asset": 4,
+        "crowding": 2,
+        "risk": 0
+      },
+      "verdict": "观察"
+    },
+    {
+      "id": "rss-https-www-woshipm-com-ai-6487440-html",
+      "title": "WorkBuddy录音笔上线，会转写、能总结、可对话",
       "track": "AI 工具/服务",
       "platform": "人人都是产品经理",
-      "source_url": "https://www.woshipm.com/share/6487200.html",
-      "summary": "字节Seed核心负责人周畅已离职创业，方向是Physical AI，并获头部美元基金支持。文章还交代了他管理范围收缩、曾妍接棒的内部变化，以及字节在多模态与机器人方向上的布局调整。 字节跳动 Seed 核心负责人周畅已离职创业，方向为 Physical AI，并获得头部美元基金支持。具体投资方、融资金额及估值暂未披露。 周畅此前是 Seed 内管理范围较广的技术负责人之一，向 Seed 负责人吴永辉汇报，业务曾覆盖多模态交互、世界模型、视觉生成及机器人等方向。周畅离职之后，相关工作可能由 TikTok 团队的一位员",
+      "source_url": "https://www.woshipm.com/ai/6487440.html",
+      "summary": "AI 录音、转写、总结是常见办公场景，但 WorkBuddy 的录音笔藏在 APP 里，桌面端并没有开放。完整链路走了一遍：云端模式开启录音、转写能区分发言人、总结给出核心事件与待办，录音还能直接拉进对话。桌面端为什么不做，给了几个解释。 AI 录音，录音后转译、 AI总结，是常见的办公场景。 作为 AI Agent 办公新范式的 WorkBuddy ，功能非常丰富。 但为何 WorkBuddy 没有 AI 录音笔功能，来覆盖这个会议记录的场景呢？ 其实，WorkBuddy是有AI 录音笔的，只是很多人不知道而已。",
       "evidence": [
         "人人都是产品经理 出现相关公开信号",
         "标题或摘要命中需求、付费、低成本验证或平台趋势关键词"
       ],
       "evidence_types": [
-        "demand",
         "market"
       ],
       "paid_signal": "待验证：查看评论、交易页、服务帖或同类报价，确认是否有真实付费",
@@ -1238,15 +1133,15 @@
       "source_tier": "vertical",
       "source_type": "rss",
       "review_note": "规则复核：偏资讯，缺少需求/付费/低成本证据，降为观察。",
-      "date": "2026-10-31",
-      "updated_at": "2026-10-31T15:04:54+08:00",
+      "date": "2026-11-01",
+      "updated_at": "2026-11-01T15:39:08+08:00",
       "scores": {
-        "total": 5.37,
-        "demand": 8,
+        "total": 5.11,
+        "demand": 7,
         "paid": 7,
         "low_cost": 6,
         "asset": 3,
-        "crowding": 2,
+        "crowding": 3,
         "risk": 0
       },
       "verdict": "观察"
